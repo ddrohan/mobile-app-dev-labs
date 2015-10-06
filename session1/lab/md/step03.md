@@ -30,27 +30,14 @@ If you choose "open editor you can see the graphical representation of the Strin
 ![](../img/lab02.png)
 
 
-Now, edit your <b>"content_hello_world.xml"</b> <u><i>in your <i>layout</i> folder</i></u> and replace with the following
+Now, edit your <b>"content_hello_world.xml"</b> <u><i>in your <i>layout</i> folder</i></u> and replace your <b>TextView</b> with the following
 
 ~~~xml
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".HelloActivity" >
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
-
-    <TextView
+<TextView
         android:id="@+id/textView1"
         android:gravity="center"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"    
-        android:layout_below="@+id/textView2"
+        android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="@string/window_text"
         android:textAppearance="?android:attr/textAppearanceMedium" />
@@ -64,8 +51,6 @@ Now, edit your <b>"content_hello_world.xml"</b> <u><i>in your <i>layout</i> fold
         android:layout_marginBottom="59dp"
         android:onClick="showGreeting"
         android:text="@string/button_label" />
-
-</RelativeLayout>
 ~~~
 
 This will give you the following layout:
