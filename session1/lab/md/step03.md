@@ -78,7 +78,7 @@ public void showGreeting(View v) {
 
 Note that we have no need for some kind of Listener interface (ala swing development) - our event handling is taken care of via the 'onClick' attribute in our xml layout, here's what your completed Activity class should look like.
 
-~~~javascript
+~~~java
 package ie.wit.helloworld;
 
 import android.os.Bundle;
