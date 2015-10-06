@@ -32,7 +32,7 @@ If no other Projects are open you will be displayed with
 
 ![](../img/new06.png)
 
-So, to import the project, select File->
+So, to import the project, select "Open an Existing Android Project"
 
 ![](../img/new07.png)
 
