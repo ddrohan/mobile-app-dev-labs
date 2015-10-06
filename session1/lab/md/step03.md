@@ -76,7 +76,7 @@ public void showGreeting(View v) {
     }
 ~~~
 
-Note that we have no need for soem kind of Listener interface (ala swing developement) - our event handling is taken care of via the 'onClick' attribute in our xml layout, here's what your completed Activity class should look like.
+Note that we have no need for some kind of Listener interface (ala swing development) - our event handling is taken care of via the 'onClick' attribute in our xml layout, here's what your completed Activity class should look like.
 
 ![](../img/lab104.png)
 
