@@ -36,7 +36,7 @@ So, to import the project, select "Open an Existing Android Project" and navigat
 
 ![](../img/new07.png)
 
-Familiarise yourself with the project layout - the initial xml layout or "screen" is first displayed, this is one of the many resources you will be using and creating throughout this module. We will experiment later with modifying this layout, but first you should run the application.
+Once the project is open again, familiarise yourself with the project layout - the initial xml layout or "screen" is first displayed, this is one of the many resources you will be using and creating throughout this module. We will experiment later with modifying this layout, but first you should run the application.
 
 Select the Project (HelloWorld) and then select the 'Play' button as below
 
@@ -44,12 +44,22 @@ Select the Project (HelloWorld) and then select the 'Play' button as below
 
 If you haven't done so already, you will be asked to select/create an AVD (Android Virtual Device), as follows:
 
-![](../img/avd1.png)
+![](../img/avd01.png)
 
 and
 
-![](../img/avd.png)
+![](../img/avd02.png)
 
-Use the settings as above and your first Android App should launch like so, (Once you've unlocked the device!):
+and
 
-![](../img/device.png)
+![](../img/avd03.png)
+
+and
+
+![](../img/avd04.png)
+
+<b>The Virtual Device is very heavy on resources so you may need to choose settings below what is selected in the Screenshots.</b>
+
+Otherwise, use the settings as above and your first Android App should launch, (Once you've unlocked the device!):
+
+
