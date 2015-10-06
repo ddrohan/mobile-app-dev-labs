@@ -1,6 +1,6 @@
 #Our version of "HelloWorld"
 
-In this Step, you will be required to develop and run your own version of the "Hello World" Android Project from the lectures (as seen below).
+In this Step, you will be required to develop and run your own version of the "Hello World" Android Project (as seen below).
 
 ![](../img/lab01.png)
 
