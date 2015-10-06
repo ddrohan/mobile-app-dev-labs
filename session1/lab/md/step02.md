@@ -32,7 +32,7 @@ If no other Projects are open you will be displayed with
 
 ![](../img/new06.png)
 
-So, to import the project, select "Open an Existing Android Project" and navigate to the Progect folder where you android app is stored (like <b>'HelloWorld'</b> below)
+So, to import the project, select "Open an Existing Android Project" and navigate to the Project folder where you android app is stored (like <b>'HelloWorld'</b> below)
 
 ![](../img/new07.png)
 
