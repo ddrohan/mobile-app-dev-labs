@@ -1,15 +1,15 @@
 #Objectives
 
-- Be able to download, install Eclipse , the Android SDK & the Eclipse ADT Plugin, and understand its key features. In particular:
+- Be able to download and install Android Studio, the Android SDK and understand its key features. In particular:
 
-    - Project Explorer
+    - Project View
 
     - SDK Manager
 
     - AVD Manager
 
-- Be able to locate the workspace folder and understand its structure
+- Be able to understand the structure of an Android Studio Project
 
-- Have created a simple Android App (HelloWorld), and be able to manage it within the Eclipse environment.
+- Have created a simple Android App (HelloWorld), and be able to manage it within the Android Studio environment.
 
 
