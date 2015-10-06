@@ -38,9 +38,9 @@ So, to import the project, select "Open an Existing Android Project" and navigat
 
 Familiarise yourself with the project layout - the initial xml layout or "screen" is first displayed, this is one of the many resources you will be using and creating throughout this module. We will experiment later with modifying this layout, but first you should run the application.
 
-Select the Project (HelloWorld)->Right-Mouse-Button->Run As->Android Application, as follows:
+Select the Project (HelloWorld) and then select the 'Play' button as below
 
-![](../img/run.png)
+![](../img/new08.png)
 
 If you haven't done so already, you will be asked to select/create an AVD (Android Virtual Device), as follows:
 
