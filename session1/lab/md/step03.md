@@ -4,13 +4,21 @@ In this Step, you will be required to develop and run your own version of the "H
 
 ![](../img/lab01.png)
 
-Launch Android Studio (if it's not already open) and create a new Android Project called <b>SayHello</b> similar to what you did in Step 02. Name your package 'ie.wit' (or accept the default again). Accept all the defaults, and it's recommended you select <b>Android 4.4</b> as the launch target platform (but any target will suffice for this particular lab). It's also probably a good idea to run the App at this stage, so you can set up your AVD (if you haven't done so already).
+Launch Android Studio (if it's not already open) and create a new Android Project called <b>SayHello</b> similar to what you did in Step 02. Name your package 'ie.wit' (or accept the default again). Accept all the defaults, and it's recommended you select <b>Android 5.0</b> as the launch target platform (but any target will suffice for this particular lab). It's also probably a good idea to run the App at this stage, so you can set up your Virtual Device (if you haven't done so already).
 
-Edit your "strings.xml" file (in your res folder) and replace the current "resources" tag with the following - be careful if you have created an app which contains a 'menu' folder, this also includes associated resources, so don't overwrite those resources, just add our ones at the end.
+Edit your "strings.xml" file (in your res folder) and add the following "resources" - be careful if you have created an app which contains a 'menu' folder, this also includes associated resources, so don't overwrite those resources, just add our ones at the end.
 
 ~~~xml
+<string name="window_text">Press the button below to receive a friendly greeting from Android.</string>
+    <string name="button_label">Show Greeting</string>
+    <string name="greeting_text">Hello from Android!</string>
+~~~
+
+Your completed strings.xml should look like this
+~~~xml
 <resources>
-    <string name="app_name">Say Hello Application</string>
+    <string name="app_name">HelloWorld</string>
+    <string name="action_settings">Settings</string>
     <string name="window_text">Press the button below to receive a friendly greeting from Android.</string>
     <string name="button_label">Show Greeting</string>
     <string name="greeting_text">Hello from Android!</string>
