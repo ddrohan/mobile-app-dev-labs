@@ -26,11 +26,15 @@ After you press "Finish", you should now have something similar to the following
 
 ![](../img/new05.png)
 
-Next, open up the AndroidManifest.xml file in Graphical View, select the 'Application' tab and change the 'Theme' to Theme.Holo.Light with Dark Action Bar, like below
+Next, as an exercise, select File->Close Project, to close the project so we can import it again.
 
-![](../img/manifest1.png)
+If no other Projects are open you will be displayed with
 
-![](../img/manifest2.png)
+![](../img/new06.png)
+
+So, to import the project, select File->
+
+![](../img/new07.png)
 
 Familiarise yourself with the project layout - the initial xml layout or "screen" is first displayed, this is one of the many resources you will be using and creating throughout this module. We will experiment later with modifying this layout, but first you should run the application.
 
