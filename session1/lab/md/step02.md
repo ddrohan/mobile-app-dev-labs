@@ -16,11 +16,11 @@ Select the Platform(s) you want your app to run on - we'll just stick with Phone
 
 You should choose An Blank Activity as your activity type on the next screen
 
-![](../img/activity.png)
+![](../img/new03.png)
 
 and name it as in the screenshot below
 
-![](../img/activity2.png)
+![](../img/new04.png)
 
 After you press "Finish", you should now have something similar to the following:
 
