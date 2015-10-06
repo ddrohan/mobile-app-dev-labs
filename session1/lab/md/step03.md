@@ -9,7 +9,7 @@ Launch Android Studio (if it's not already open) and create a new Android Projec
 Edit your "strings.xml" file (in your res folder) and add the following "resources" - be careful if you have created an app which contains a 'menu' folder, this also includes associated resources, so don't overwrite those resources, just add our ones at the end.
 
 ~~~xml
-<string name="window_text">Press the button below to receive a friendly greeting from Android.</string>
+    <string name="window_text">Press the button below to receive a friendly greeting from Android.</string>
     <string name="button_label">Show Greeting</string>
     <string name="greeting_text">Hello from Android!</string>
 ~~~
