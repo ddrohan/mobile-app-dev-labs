@@ -4,7 +4,11 @@ In this Step, you will be required to develop and run your own version of the "H
 
 ![](../img/lab01.png)
 
-Launch Android Studio (if it's not already open) and create a new Android Project called <b>SayHello</b> similar to what you did in Step 02. Name your package 'ie.wit' (or accept the default again). Accept all the defaults, and it's recommended you select <b>Android 5.0</b> as the launch target platform (but any target will suffice for this particular lab). It's also probably a good idea to run the App at this stage, so you can set up your Virtual Device (if you haven't done so already).
+If you've deleted your HelloWorld Project, launch Android Studio (if it's not already open) and create a new Android Project called <b>HelloWorld</b> similar to what you did in Step 02. 
+
+If you haven't deleted the project, you can just continue on.
+
+Name your package 'ie.wit' (or accept the default again). Accept all the defaults, and it's recommended you select <b>Android 5.0</b> as the launch target platform (but any target will suffice for this particular lab). It's also probably a good idea to run the App at this stage, so you can set up your Virtual Device (if you haven't done so already).
 
 Edit your "strings.xml" file (in your res folder) and add the following "resources" - be careful if you have created an app which contains a 'menu' folder, this also includes associated resources, so don't overwrite those resources, just add our ones at the end.
 
@@ -57,11 +61,11 @@ This will give you the following layout:
 
 ![](../img/lab03.png)
 
-Once again, it's worth running the app at this point to confirm everything is displayed the way we want it.
+Once again, it's worth running the app at this point to confirm everything is displayed the way we want it. If you click the button, your app will probably crash - we don't have our <b>showGreeting()</b> method implemented yet.
 
 The last thing we need to do is add in our event handling code so that a short message is displayed when the user presses the 'Show Greeting' button.
 
-Firstly, open up the "HelloActivity.java" source file and add the following method
+Firstly, open up the "HelloWorldActivity.java" source file and add the following method
 
 ~~~java
 public void showGreeting(View v) {
