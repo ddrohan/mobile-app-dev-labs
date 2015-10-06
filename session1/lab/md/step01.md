@@ -2,9 +2,7 @@
 
 ##Instructions for working in Walton Building PC Labs:
 
-If you are working on the workstations in the IT Building, locate the C: Drive in the Explorer, and navigate to 'C:\dev\javaee\eclipse' folder. Run (double click on) the "Eclipse" application.
-
-Proceed with the next step of the lab.
+If you are working on the workstations in the IT Building, Android Studio should already be installed so proceed with the next step of the lab.
 
 ##Instructions for working on your own laptop
 
