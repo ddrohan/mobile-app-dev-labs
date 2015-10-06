@@ -10,7 +10,7 @@ It's recommended you change the default package name also and it's probably wort
 
 ![](../img/new01.png)
 
-Select yo
+Select the Platform(s) you want your app to run on - we'll just stick with Phone & Tablet and choose an appropriate Minimum SDK.
 
 ![](../img/new02.png)
 
