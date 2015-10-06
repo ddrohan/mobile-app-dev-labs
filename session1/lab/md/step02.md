@@ -1,8 +1,8 @@
 #First Android Project - "HelloWorld"
 
-In Eclipse, select File->New->Other. Navigate to Android, and select "Android Application Project":
+In Android Studio, select File->New->New Project, or if it's a first run, select Navigate to Android, and select "Android Application Project":
 
-![](../img/38.png)
+![](../img/firstrun.png)
 
 Press "Next" and then give the project a name: 'HelloWorld'
 
