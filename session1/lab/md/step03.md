@@ -30,7 +30,7 @@ If you choose "open editor you can see the graphical representation of the Strin
 ![](../img/lab02.png)
 
 
-Edit your "activity_hello.xml" <u><i>in your <i>layout</i> folder</i></u> and replace with the following
+Now, edit your <b>"content_hello_world.xml"</b> <u><i>in your <i>layout</i> folder</i></u> and replace with the following
 
 ~~~xml
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
