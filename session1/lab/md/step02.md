@@ -6,11 +6,15 @@ In Android Studio, select File->New->New Project, or if it's a first run, select
 
 Press "Next" (or click the option) and then give the project a name: 'HelloWorld'
 
-It's recommended you change the default package name also and it's probably worth changing the 
+It's recommended you change the default package name also and it's probably worth changing the Projetc Location too but you can take the default for the moment.
 
 ![](../img/new01.png)
 
-You should choose An Empty Activity as your activity type
+Select yo
+
+![](../img/new02.png)
+
+You should choose An Blank Activity as your activity type on the next screen
 
 ![](../img/activity.png)
 
