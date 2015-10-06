@@ -55,7 +55,7 @@ Now, edit your <b>"content_hello_world.xml"</b> <u><i>in your <i>layout</i> fold
 
 This will give you the following layout:
 
-![](../img/lab103.png)
+![](../img/lab03.png)
 
 Once again, it's worth running the app at this point to confirm everything is displayed the way we want it.
 
