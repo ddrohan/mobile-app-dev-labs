@@ -1,6 +1,6 @@
 #First Android Project - "HelloWorld"
 
-In Android Studio, select File->New->New Project, or if it's a first run, select Navigate to Android, and select "Android Application Project":
+In Android Studio, select File->New->New Project, or if it's a first run, select "Start a new Android Studio Project"
 
 ![](../img/firstrun.png)
 
