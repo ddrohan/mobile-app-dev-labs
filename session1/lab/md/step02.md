@@ -14,7 +14,7 @@ Select the Platform(s) you want your app to run on - we'll just stick with Phone
 
 ![](../img/new02.png)
 
-You should choose An Blank Activity as your activity type on the next screen
+You should choose a Blank Activity as your activity type on the next screen
 
 ![](../img/new03.png)
 
@@ -24,7 +24,7 @@ and name it as in the screenshot below
 
 After you press "Finish", you should now have something similar to the following:
 
-![](../img/09.png)
+![](../img/new05.png)
 
 Next, open up the AndroidManifest.xml file in Graphical View, select the 'Application' tab and change the 'Theme' to Theme.Holo.Light with Dark Action Bar, like below
 
