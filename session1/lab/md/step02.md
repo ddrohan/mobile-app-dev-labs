@@ -4,11 +4,11 @@ In Android Studio, select File->New->New Project, or if it's a first run, select
 
 ![](../img/firstrun.png)
 
-Press "Next" and then give the project a name: 'HelloWorld'
+Press "Next" (or click the option) and then give the project a name: 'HelloWorld'
 
-It's recommended you change the default package name also, (but you can leave it as it is this time) and accept the rest of the defaults, on the remaining screens. 
+It's recommended you change the default package name also and it's probably worth changing the 
 
-![](../img/08.png)
+![](../img/new01.png)
 
 You should choose An Empty Activity as your activity type
 
