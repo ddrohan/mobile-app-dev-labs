@@ -2,11 +2,11 @@
 
 To make things a bit easier, you can download some starter code for this lab here - [CoffeeMate.1.0.Starter](../archives/CoffeeMate.1.0.Starter.zip). It contains all the resources you'll need to complete this lab along with some of the code.
 
-To open this in Android Studio, first extract the archive somewhere on our hard disk (preferably, where you plan on storing all your Android Studio projects). Then, in Android, select 'File->Import' menu option, and in the dialog select 'Existing Projects into Workspace'
+To open this in Android Studio, first extract the archive somewhere on your hard disk (preferably, where you plan on storing all your Android Studio projects). Then, select the 'Open an existing Android Studio project' menu option, 
 
 ![](../img/lab202.png)
 
-When you browse to and select the folders to which the project have expanded, you should see this:
+and browse to the folder you just extracted
 
 ![](../img/lab203.png)
  
