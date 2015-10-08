@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+
+  <title> Lab 3: Part (A) - CoffeeMate Refactored - CoffeeMate 2.0 </title>
+  
+    <style type="text/css">
+    table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+      margin: 0; padding: 0; vertical-align: baseline; border: none; }
+    table.sourceCode { width: 100%; line-height: 100%; }
+    td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+    td.sourceCode { padding-left: 5px; }
+    code > span.kw { color: #007020; font-weight: bold; }
+    code > span.dt { color: #902000; }
+    code > span.dv { color: #40a070; }
+    code > span.bn { color: #40a070; }
+    code > span.fl { color: #40a070; }
+    code > span.ch { color: #4070a0; }
+    code > span.st { color: #4070a0; }
+    code > span.co { color: #60a0b0; font-style: italic; }
+    code > span.ot { color: #007020; }
+    code > span.al { color: #ff0000; font-weight: bold; }
+    code > span.fu { color: #06287e; }
+    code > span.er { color: #ff0000; font-weight: bold; }
+  </style>
+  
+  <link rel="stylesheet" href="./style/bootstrap.min.css" type="text/css">  
+  <link rel="stylesheet" href="./style/clarity.css" type="text/css"> 
+
+  <link rel="stylesheet" href="./style/highlight.css">
+  <script src="./style/highlight.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+
+<body>
+  <div class="container-fluid">
+
+    <!----------------------------------------------------------------------------------------->
+   <style> body  { padding-top: 60px; } </style>    <div class="navbar navbar-fixed-top">
+      <p id="title">Lab 3: Part (A) - CoffeeMate Refactored - CoffeeMate 2.0&nbsp;&nbsp;</p>
+      <div class="navbar-inner">
+        <ul class="nav">
+          <li><a href="objectives.html">Objectives</a></li>
+          <li><a href="step01.html">01</a></li>
+          <li class="active"><a href="step02.html">02</a></li>
+          <li><a href="step03.html">03</a></li>
+          <li><a href="step04.html">04</a></li>
+          <li><a href="step05.html">05</a></li>
+          <li><a href="step06.html">06</a></li>
+          <li><a href="step07.html">07</a></li>
+          <li><a href="exercises.html">Exercises</a></li>
+        </ul>
+        <p class="navbar-text pull-right"> <a href="http://www.jumpyjosh.com/wit/androidy5/practicals/default.html"> Mobile Application Development 'MAD'</a> &nbsp; &nbsp;</p>
+      </div>
+    </div>
+    <!----------------------------------------------------------------------------------------->
+
+
+<h1 id="our-new-look-home-screen">Our 'new look' Home Screen</h1>
+<p>When we're finsihed this lab, we'll have something like this</p>
+<div class="figure">
+<img src="../img/lab0301.png" />
+</div>
+<p>So, first of all, have a quick look again at the resource layout (home.xml). Notice that the buttons don't look like buttons in the conventional sense anymore. They're still buttons, we've just applied a <b><i>Style</i></b> to make them a bit more presentable. The style <i><span class="citation">@style/homeScreenButton</span></i> is being used to give the buttons a different look and feel, so ensure your buttons look similar.</p>
+<p>Also, we're using a <b><i>FrameLayout</i></b> as the container for our List of Coffees, which ultimately holds a <b>Fragment</b>, but we'll talk more about that later.</p>
+<p>Once you've had a look at the layout, open your <b>Base.java</b> Activity class and familiarise yourself with the new variables/methods this class now has.</p>
+<p>There's two new instance variables</p>
+<pre class="sourceCode java"><code class="sourceCode java">  <span class="kw">protected</span> Bundle            activityInfo; <span class="co">// Used for persistence (of sorts)</span>
+  <span class="kw">protected</span> CoffeeFragment    coffeeFragment; <span class="co">// How we&#39;ll &#39;share&#39; our List of Coffees between Activities</span></code></pre>
+<p>And there's a number of helper methods for accessing different widgets on our layouts, for example:</p>
+<pre class="sourceCode java"><code class="sourceCode java">  <span class="kw">protected</span> EditText <span class="fu">getEditText</span>(<span class="dt">int</span> id) {
+    <span class="kw">return</span> ((EditText) <span class="fu">findViewById</span>(id));
+  }
+
+  <span class="kw">protected</span> String <span class="fu">getEditString</span>(<span class="dt">int</span> id) {
+    <span class="kw">return</span> (<span class="fu">getEditText</span>(id)).<span class="fu">getText</span>().<span class="fu">toString</span>();
+  }</code></pre>
+<p>Make sure you understand how all these methods in <b>Base.java</b> work, as you'll be referring to them quite a lot!</p>
+<p>The first thing to do is refactor the Home Screen <b><i>onCreate()</i></b> method to make use of these helper methods, so have a look again at the current implementation:</p>
+<pre class="sourceCode java"><code class="sourceCode java">  <span class="fu">@Override</span>
+  <span class="kw">public</span> <span class="dt">void</span> <span class="fu">onCreate</span>(Bundle savedInstanceState) {
+    <span class="kw">super</span>.<span class="fu">onCreate</span>(savedInstanceState);
+
+    <span class="fu">setContentView</span>(R.<span class="fu">layout</span>.<span class="fu">home</span>);
+    coffeeListTextView = (TextView) <span class="fu">findViewById</span>(R.<span class="fu">id</span>.<span class="fu">recentlyAddedListEmpty</span>);
+
+    Button addACoffeeButton = (Button) <span class="fu">findViewById</span>(R.<span class="fu">id</span>.<span class="fu">addACoffeeBtn</span>);
+    addACoffeeButton.<span class="fu">setOnClickListener</span>(<span class="kw">this</span>);
+  }</code></pre>
+<p>Make sure your new <b><i>onCreate()</i></b> method looks something like this:</p>
+<pre class="sourceCode java"><code class="sourceCode java">  <span class="fu">@Override</span>
+    <span class="kw">public</span> <span class="dt">void</span> <span class="fu">onCreate</span>(Bundle savedInstanceState) {
+        <span class="kw">super</span>.<span class="fu">onCreate</span>(savedInstanceState);
+     
+        <span class="fu">setContentView</span>(R.<span class="fu">layout</span>.<span class="fu">home</span>);
+        <span class="co">// Comment out on first run of app</span>
+        <span class="fu">setupCoffees</span>(); 
+    }</code></pre>
+<p>and you understand it. Note that we have removed the Eventlistener settings - we now handle <b><i>onClick()</i></b> events in the layout (via the xml).</p>
+<p>The <b><i>setupCoffees()</i></b> method adds a few Coffee objects to our static <b><i>coffeeList</i></b>, so have a go at implementing this in <b>Home.java</b>.</p>
+<p>Run the App again just to confirm you're not seeing a blank screen anymore.</p>
+<p>Next we'll start with the task of displaying our Coffees in a custom ListView.</p>
+
+
+      <!----------------------------------------------------------------------------------------->
+      <div id="footer">
+        <p id="footertext">
+          Prepared by  David Drohan (ddrohan@wit.ie). Except where otherwise noted, this content is licensed under a 
+          <a class="externalLink" href="http://creativecommons.org/licenses/by-nc/3.0/" 
+            title="External link to http://creativecommons.org/licenses/by-nc/3.0/" 
+            target="_blank">Creative Commons Attribution-NonCommercial 3.0 License
+          </a>
+        </p>
+      </div>
+
+    </div>
+  </body>
+</html>
+ 
