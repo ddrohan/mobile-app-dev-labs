@@ -14,7 +14,11 @@ Note carefully the 'Copy Project into Workspace' option. If you select this, the
 
 Another complication is that the projects cannot be imported into a workspace which already contains projects with the same name. If this is the case, you can create a new workspace (File->Switch Workspace) and import these projects there.
 
-Once you import the Starter Project it should looks as follows:
+Once you import the Starter Project, select the 'project' tab
+
+![](../img/lab203a.png)
+
+and it should looks as follows:
 
 ![](../img/starter.png)
 
