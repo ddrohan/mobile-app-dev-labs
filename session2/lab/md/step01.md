@@ -9,10 +9,6 @@ To open this in Android Studio, first extract the archive somewhere on your hard
 and browse to the folder you just extracted
 
 ![](../img/lab203.png)
- 
-Note carefully the 'Copy Project into Workspace' option. If you select this, then the full project will be copied into your 'workspace' folder. If you leave in unchecked (which you should for this lab), then it will remain in the folder where you unzipped it, but it will be 'linked to' from your workspace. 
-
-Another complication is that the projects cannot be imported into a workspace which already contains projects with the same name. If this is the case, you can create a new workspace (File->Switch Workspace) and import these projects there.
 
 Once you import the Starter Project, select the 'project' tab
 
