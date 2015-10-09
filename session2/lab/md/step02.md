@@ -1,6 +1,6 @@
 #Adding a Coffee - Switching to our 'Coffee Check In' Screen
 
-First of all, have a quick look at the resource layout (home.xml) we will be referring to, and familiarise yourself with the "id's" of the different buttons, as you will have to refer to these in your code.
+First of all, have a quick look at the resource layout (content_home.xml) we will be referring to, and familiarise yourself with the "id's" of the different buttons, as you will have to refer to these in your code.
 
 ![](../img/lab204.png)
 
