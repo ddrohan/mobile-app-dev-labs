@@ -45,6 +45,6 @@ Can you work out why, and more importantly, how to fix it? (Hint : it involves t
 
 Run the app again once you have solved this issue, to confirm everything is ok so far.
 
-![](../img/screen.png)
+![](../img/starterapp1.png)
 
 Next we'll start with implementing the menu.
