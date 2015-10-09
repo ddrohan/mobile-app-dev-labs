@@ -20,6 +20,14 @@ and it should looks as follows (once you expand the folders etc.):
 
 Take a few moments to familiarise yourself with the different Activities and classes in your project and explore the resources that you will be referring to throughout the lab, especially the layouts in both 'Graphical Layout' view and 'XML' view. It's also probably a good idea to run the App at this stage too, so you can set up your AVD (if you haven't done so already) and confirm that the starter app is configured properly and running.
 
+The initial App will look like this
+
+![](../img/starterapp1.png)
+
+and we already have the 'FloatingActionBar' operational, like so 
+
+![](../img/starterapp2.png)
+
 In this lab, you are required to do the following:
 
 - "Wire up" the Coffee Check-In Button to our 'Add' activity to display the Add screen.
