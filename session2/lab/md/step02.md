@@ -17,28 +17,6 @@ Next, open your <b>Home.java</b> activity and add the following method
     }
 ~~~
 
-NOTE: Ensure you insert this code <b>AFTER</b> the layout has been set - what are the implications if the code was inserted BEFORE the layout was set?
-
-Your <b><i>onClick()</i></b> code should look something like this
-
-~~~Java
-switch(v.getId()) {
-    case R.id.addACoffeeBtn:
-        goToActivity(this,Add.class,null);
-        break;
-    case R.id.searchCoffeesBtn:
-
-        break;
-    case R.id.favouritesCoffeeBtn: 
-
-        break;
-    }
-~~~
-
-Be sure you understand what's happening here as we will be revisiting this method throughout the labs and adding in the extra functionality as we go along. 
-
-Finally, your <b><i>onResume()</i></b> method is already complete, but again, familiarise yourself with the inner workings of the method as you will need to do something similar in your <b>Add.java</b> Activity class later on.  
-
 You should run your app at this stage just to see if it behaves like it should.
 
 You will, more than likely, get an error along the lines of 
