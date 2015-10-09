@@ -1,14 +1,20 @@
 #Adding a Coffee - Switching to our 'Coffee Check In' Screen
 
-First of all, have a quick look at the resource layout (content_home.xml) we will be referring to, and familiarise yourself with the properties of the different buttons, especially the <b>onClick</b>, as you will have to refer to these later on.
+First of all, have a quick look at the resource layout (content_home.xml) we will be referring to, and familiarise yourself with the properties of the different buttons, especially the <b>onClick</b>, as you will have to refer to these in the following steps.
 
 ![](../img/lab2s201.png)
 
-Next, open your <b>Home.java</b> Activity class and in the <b><i>onCreate()</i></b> method insert the following code to bind to the button and attach an event listener.
+We <b>won't</b> need to implement specific Event Listeners for this step, instead we will use the simpler 'direct binding' approach where we associate a method to be triggered when our button is pressed. 
+
+So, navigate to the <b>onClick</b> property of the 'Check In' button and enter <b>add</b> for the method name.
+
+Next, open your <b>Home.java</b> activity and add the following method
 
 ~~~java
-    Button addACoffeeButton = (Button)findViewById(R.id.addACoffeeBtn);
-	addACoffeeButton.setOnClickListener(this);
+    public void add(View v)
+    {
+    gotToActivity(this,add.class,null);
+    }
 ~~~
 
 NOTE: Ensure you insert this code <b>AFTER</b> the layout has been set - what are the implications if the code was inserted BEFORE the layout was set?
