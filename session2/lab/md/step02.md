@@ -47,7 +47,7 @@ and
     android:progressTint="@color/bannerBGColor"
 ~~~
 
-Finally, add the following to your manifest file
+* Finally, add the following to your manifest file
 
 ~~~xml
  <activity
