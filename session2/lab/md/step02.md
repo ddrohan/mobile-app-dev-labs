@@ -25,9 +25,34 @@ You will, more than likely, get an error along the lines of
 android.content.ActivityNotFoundException: Unable to find explicit activity class {ie.cm.models/ie.cm.activities.Add};
 ~~~
 
+
+
 Can you work out why, and more importantly, how to fix it? (Hint : it involves the AndroidManifest.xml file and you can find the answer in the section on Intents already covered in the lectures).
 
-Run the app again once you have solved this issue, to confirm everything is ok so far.
+But before we modify the AndroidManifest File, there's a few other additions to the project we need to make, i.e. 
+
+* we need to add a new <i>style</i> so we can display our Add screen properly like so
+~~~XML
+ <style name="AppTheme.ActionBar">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">false</item>
+    </style>
+~~~
+and
+
+* we need to modify our <i>RatingBar</i> so we get to see nice blue stars (and not grey ones!) so set the property 
+
+Finally, add the following to your manifest file
+
+~~~xml
+ <activity
+    android:name=".activities.Add"
+    android:label="@string/addACoffeeLbl"
+    android:theme="@style/AppTheme.ActionBar" >
+</activity>
+~~~
+
+and run the app again to confirm everything is ok so far.
 
 ![](../img/starterapp1.png)
 
