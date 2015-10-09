@@ -24,7 +24,7 @@ The initial App will look like this
 
 ![](../img/starterapp1.png)
 
-and we already have the 'FloatingActionBar' operational, like so 
+and we already have the 'FloatingActionButton' operational, like so 
 
 ![](../img/starterapp2.png)
 
