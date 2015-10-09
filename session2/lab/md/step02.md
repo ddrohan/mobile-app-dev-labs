@@ -1,8 +1,8 @@
 #Adding a Coffee - Switching to our 'Coffee Check In' Screen
 
-First of all, have a quick look at the resource layout (content_home.xml) we will be referring to, and familiarise yourself with the "id's" of the different buttons, as you will have to refer to these in your code.
+First of all, have a quick look at the resource layout (content_home.xml) we will be referring to, and familiarise yourself with the properties of the different buttons, especially the <b>onClick</b>, as you will have to refer to these later on.
 
-![](../img/lab204.png)
+![](../img/lab2s201.png)
 
 Next, open your <b>Home.java</b> Activity class and in the <b><i>onCreate()</i></b> method insert the following code to bind to the button and attach an event listener.
 
