@@ -41,7 +41,7 @@ But before we modify the AndroidManifest File, there's a few other additions to 
 and
 
 * we need to modify our <i>RatingBar</i> so we get to see nice blue stars (and not grey ones!) so set the following property
-~~~xml
+~~~XML
 android:progressTint="@color/bannerBGColor"
 ~~~
 
