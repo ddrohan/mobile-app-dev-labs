@@ -13,7 +13,7 @@ Next, open your <b>Home.java</b> activity and add the following method
 ~~~java
     public void add(View v)
     {
-    gotToActivity(this,add.class,null);
+    goToActivity(this,add.class,null);
     }
 ~~~
 
