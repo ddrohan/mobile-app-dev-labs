@@ -14,7 +14,7 @@ Once you import the Starter Project, select the 'project' tab
 
 ![](../img/lab203a.png)
 
-and it should looks as follows:
+and it should looks as follows (once you expand the folders etc.):
 
 ![](../img/starter.png)
 
