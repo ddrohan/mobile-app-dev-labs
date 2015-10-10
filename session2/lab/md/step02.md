@@ -61,4 +61,8 @@ and run the app again to confirm everything is ok so far.
 
 ![](../img/starterapp1.png)
 
+and when you click 'Coffee Check In' you should get
+
+![](../img/starterapadd.png)
+
 Next we'll start with implementing the menu.
