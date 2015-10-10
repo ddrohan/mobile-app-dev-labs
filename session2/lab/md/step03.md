@@ -14,7 +14,9 @@ and the xml...
 
 Maybe you noticed (or maybe you didn't!) that our 'Add' screen has no menu - this is because we never 'inflated' the menu in our activity. 
 
-So, open up the <b>Base.java</b> Activity class, and add in or "override" the methods we need to implement our menu (as we want the same menu for all our screens) i.e. <b><i>onCreateOptionsMenu()</i></b> and <b><i>onMenuItemSelected()</i></b>. We are overriding the methods here so that the menu will be available to all classes that extend from our base class. You could also just move the method from <b>Home.java</b> to <b>Base.java</b> too.
+So, open up the <b>Base.java</b> Activity class, and add in or "override" the methods we need to implement our menu (as we want the same menu for all our screens) i.e. <b><i>onCreateOptionsMenu()</i></b>. We are overriding the method here so that the menu will be available to all classes that extend from our base class. You could also just move the method from <b>Home.java</b> to <b>Base.java</b> too.
+
+Run your app again just to confirm you can now see the menu on all screens.
 
 Inside <b><i>onCreateOptionsMenu()</i></b> you'll need to 'inflate' our resource (our xml menu file) so have a look at the notes on how to do that if you're not sure and in our <b><i>onMenuItemSelected()</i></b> we need to write our conditional test so that the correct Activity is launched when a user selects an option. 
 
