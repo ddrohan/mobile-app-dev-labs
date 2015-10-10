@@ -6,7 +6,7 @@ First of all, have a quick look at the resource layout (content_home.xml) we wil
 
 We <b>won't</b> need to implement specific Event Listeners for this step, instead we will use the simpler 'direct binding' approach where we associate a method to be triggered when our button is pressed. 
 
-So, navigate to the <b>onClick</b> property of the 'Coffee Check In' button and enter <b>add</b> for the method name.
+So, navigate to the <b>onClick</b> property of the 'Coffee Check In' button (as above) and enter <b>add</b> for the method name.
 
 Next, open your <b>Home.java</b> activity and add the following method
 
