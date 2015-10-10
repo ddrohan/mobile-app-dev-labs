@@ -4,13 +4,13 @@ On completion of this step we'll have something like this:
 
 ![](../img/starterappmenu.png)
 
-So once again, have a quick look at the resource (below) we will use to create our menu, and familiarise yourself with the "id's" of the different options, you will have to refer to these later on in your code.
+which we sort of already have, but we'll add functionality. So once again, have a quick look at the resource (below) we will use to create our menu, and familiarise yourself with the "id's" of the different options, you will have to refer to these later on in your code.
 
-![](../img/lab205.png)
+![](../img/lab2s301.png)
 
 and the xml...
 
-![](../img/lab206.png)
+![](../img/lab2s3202.png)
 
 Next, open up the <b>Base.java</b> Activity class, and add in or "override" the methods we need to implement our menu i.e. <b><i>onCreateOptionsMenu()</i></b> and <b><i>onMenuItemSelected()</i></b>. We are overriding the methods here so that the menu will be available to all classes that extend from our base class - you should use Eclipse's auto-generate feature to accomplish this.
 
