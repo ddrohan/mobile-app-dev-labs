@@ -2,7 +2,7 @@
 
 On completion of this step we'll have something like this:
 
-![](../img/menu.png)
+![](../img/starterappmenu.png)
 
 So once again, have a quick look at the resource (below) we will use to create our menu, and familiarise yourself with the "id's" of the different options, you will have to refer to these later on in your code.
 
