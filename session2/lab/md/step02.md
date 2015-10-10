@@ -31,7 +31,7 @@ Can you work out why, and more importantly, how to fix it? (Hint : it involves t
 
 But before we modify the AndroidManifest File, there's a few other additions to the project we need to make, i.e. 
 
-* we need to add a new <i>style</i> so we can display our Add screen properly like so
+* we need to add a new <i>style</i> so we can display our Add screen properly (as it's layout <b>is not</b> part of a template, like so
 
 ~~~XML
  <style name="AppTheme.ActionBar">
