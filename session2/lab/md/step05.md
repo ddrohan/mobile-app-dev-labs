@@ -2,7 +2,7 @@
 
 Our Add screen look as follows:
 
-![](../img/starterappadd.png)
+![](../img/starterappadd1.png)
 
 So, first of all, we need to bind to each of the widgets to 'get at' the new coffee details (possibly like this) - where would be the best place for this code?
 
