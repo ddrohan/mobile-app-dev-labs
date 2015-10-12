@@ -2,7 +2,7 @@
 
 To implement the Help feature of our App we need to :
 
-- create a new Activity (<b>Help.java</b>) and associate it with our new help layout.
+- create a new Activity (<b>Help.java</b>) and associate it with our help layout.
 - associate this activity with our menu.
 
 Using Android Studio, go to File->New->Activity and create a new <b>Empty Activity</b> in the <b><i>ie.cm.activities</i></b> package and <b>Deselect 'Generate layout file'</b> as we already have one in our resources. (like below)
