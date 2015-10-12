@@ -47,7 +47,7 @@ You'll notice we haven't implemented the <b>menuHelp</b> method - as we don't ha
 
 Once you have these two methods implemented, that's basically it, but as we really only have two activities at the moment (our 'Home' & Add Activities) the menu won't do much, but we'll add to this once we have our Help Screen completed - run your app again to test your menu and see if it displays the way it's supposed to. (something like below for the 'info' option)
 
-![](../img/lab207.png)
+![](../img/starterappinfo.png)
 
 Next we'll add in our new Help screen.
 
