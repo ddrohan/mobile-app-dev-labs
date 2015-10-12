@@ -20,25 +20,32 @@ Run your app again just to confirm you can now see the menu on all screens.
 
 Now, to keep things as simple as possible, we're going to take the same approach with our Menu as we did with our 'Coffee Check In Button' - we'll use the <b>onClick</b> property to bind a menu item to a particular method in our activity.
 
-So open up your <b>main_menu.xml</b> and add the following to each of the menu items (as in the screenshot below
+So open up your <b>main_menu.xml</b> and add the following to each of the menu items (as in the screenshot below)
 
 ![](../img/lab2s303.png)
 
 Then, open up your <b>Base.java</b> and add the following methods
 
 ~~~java
-switch(item.getItemId()) 
-  {
-  case R.id.help : 
-                break;
-  case R.id.info : openInfoDialog(this);
-                break;
-  case R.id.home : goToActivity(...); //pass in the relevant parameters 
-                break;
-  }
+ public void menuInfo(MenuItem m)
+    {
+        openInfoDialog(this);
+    }
+
+    public void menuHelp(MenuItem m)
+    {
+      //  goToActivity(this, Help.class, null);
+    }
+
+    public void menuHome(MenuItem m)
+    {
+        goToActivity(this, Home.class, null);
+    }
 ~~~
 
-Once you have these two methods implemented, that's basically it, but as we really only have one activity at the moment (our 'Home' Activity) the menu won't do much, but we'll add to this once we have our Help Screen completed - run your app again to test your menu and see if it displays the way it's supposed to. (something like below for the 'info' option)
+You'll notice we haven't implemented the <b>menuHelp</b> method - as we don't have our <b>Help</b> activity yet but you can still run your app and confirm that the other two methods function as expected.
+
+Once you have these two methods implemented, that's basically it, but as we really only have two activities at the moment (our 'Home' & Add Activities) the menu won't do much, but we'll add to this once we have our Help Screen completed - run your app again to test your menu and see if it displays the way it's supposed to. (something like below for the 'info' option)
 
 ![](../img/lab207.png)
 
