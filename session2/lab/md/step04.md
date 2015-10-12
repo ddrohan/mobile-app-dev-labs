@@ -7,7 +7,7 @@ To implement the Help feature of our App we need to :
 
 Using Android Studio, go to File->New->Activity and create a new <b>Empty Activity</b> in the <b><i>ie.cm.activities</i></b> package and <b>Deselect 'Generate layout file'</b> as we already have one in our resources. (like below)
 
-
+![](../img/lab2s401.png)
 
 Make sure to DESELECT the option to create a menu for this screen - we will be using our own menu for all screens, so if one gets created for you, delete this menu resource and remove the associated method in the Activity class. 
 
