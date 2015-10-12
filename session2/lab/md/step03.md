@@ -18,9 +18,9 @@ So, open up the <b>Base.java</b> Activity class, and add in or "override" the me
 
 Run your app again just to confirm you can now see the menu on all screens.
 
-Inside <b><i>onCreateOptionsMenu()</i></b> you'll need to 'inflate' our resource (our xml menu file) so have a look at the notes on how to do that if you're not sure and in our <b><i>onMenuItemSelected()</i></b> we need to write our conditional test so that the correct Activity is launched when a user selects an option. 
+Now, to keep things as simple as possible, we're going to take the same approach with our Menu as we did with our 'Coffee Check In Button' - we'll use the <b>onClick</b> property to bind a menu item to a particular method in our activity.
 
-This is where you refer to the id of the specific resource. You should be able to make use of our helper goToActivity() method (also in the base class) to switch between Activities.  Once again you should probably refer to the notes on this one, if you're a bit sketchy and insert the following code in the correct place
+So open up your <b>main_menu.xml</b> and add the following to each of the menu items
 
 ~~~java
 switch(item.getItemId()) 
