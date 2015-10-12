@@ -22,6 +22,8 @@ public void onCreate(Bundle savedInstanceState) {
 
 Your Help Screen layout is already completed but you can design it whatever way you want really, so take some time to customise this layout to your own liking.
 
-Once you're happy with your own Help Screen, you can now 'uncomment' your <b>menuHelp</b> method in your Base class, so go ahead and do that and test again to confirm.
+Once you're happy with your own Help Screen, you can now 'uncomment' your <b>menuHelp</b> method in your Base class, so go ahead and do that and test again to confirm and you should have something like this
+
+![](../img/starterapphelp.png)
 
 Now we can move on to actually adding a Coffee to our App.
