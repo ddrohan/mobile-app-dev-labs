@@ -22,6 +22,8 @@ Now, to keep things as simple as possible, we're going to take the same approach
 
 So open up your <b>main_menu.xml</b> and add the following to each of the menu items (as in the screenshot below
 
+![](../img/lab2s303.png)
+
 Then, open up your <b>Base.java</b> and add the following methods
 
 ~~~java
