@@ -20,7 +20,9 @@ Run your app again just to confirm you can now see the menu on all screens.
 
 Now, to keep things as simple as possible, we're going to take the same approach with our Menu as we did with our 'Coffee Check In Button' - we'll use the <b>onClick</b> property to bind a menu item to a particular method in our activity.
 
-So open up your <b>main_menu.xml</b> and add the following to each of the menu items
+So open up your <b>main_menu.xml</b> and add the following to each of the menu items (as in the screenshot below
+
+Then, open up your <b>Base.java</b> and add the following methods
 
 ~~~java
 switch(item.getItemId()) 
