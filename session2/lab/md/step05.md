@@ -8,11 +8,11 @@ So, first of all, we need to bind to each of the widgets to 'get at' the new cof
 
 ~~~
  name = (EditText) findViewById(R.id.nameEditText);
- shop = (EditText) findViewById(R.id.shopEditText);
+ shop = (EditText) findViewById(R.id.shopEditText);
 ~~~
 
 
-Specifically, the <b><i>onClick()</i></b> method needs to
+Specifically, the <b><i>add()</i></b> method needs to
 
 - Grab all the values that the user has entered for the Coffee details, validate them & create a Coffee object
 
