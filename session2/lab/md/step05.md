@@ -1,6 +1,6 @@
 #Adding a Coffee - Saving our data in 'Coffee Check In'
 
-Our Add screen look as follows:
+Our Add screen looks as follows:
 
 ![](../img/starterappadd1.png)
 
