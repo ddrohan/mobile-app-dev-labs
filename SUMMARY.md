@@ -21,7 +21,7 @@
    * [Step 02](session3/lab/md/step02.md)
    * [Step 03](session3/lab/md/step03md.md)
    * [Step 04](session3/lab/md/step04md.md)
-   * [Step 05](session3/lab/md/step05.md)
+   * [Step 05](session3/lab/md/step05md.md)
    * [Step 06](session3/lab/md/step06.md)
    * [Step 07](session3/lab/md/step07.md)
    * [Exercises](session3/lab/md/exercises.md)
