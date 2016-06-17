@@ -19,7 +19,7 @@
    * [Objectives](session3/lab/md/objectives.md)
    * [Step 01](session3/lab/md/step01.md)
    * [Step 02](session3/lab/md/step02.md)
-   * [Step 03](session3/lab/md/step03.md)
+   * [Step 03](session3/lab/md/step03md.md)
    * [Step 04](session3/lab/md/step04.md)
    * [Step 05](session3/lab/md/step05.md)
    * [Step 06](session3/lab/md/step06.md)
