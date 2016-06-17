@@ -58,7 +58,7 @@ The main purpose of this class is to allow us to reuse a component (the Fragment
 
 The only thing we need to do at this stage is create an instance of our custom adapter and associate it with our Fragment, so inside the <b><i>onCreate()</i></b> method insert the following:
 
-~~~java
+~~~Java
     listAdapter = new CoffeeListAdapter(activity, this, Base.coffeeList);
     setListAdapter (listAdapter);
 ~~~
@@ -67,7 +67,7 @@ The only thing we need to do at this stage is create an instance of our custom a
 
 The last thing we need to do is attach this Fragment to the Home Screen, so inside our <b><i>onResume()</i></b> method in <b><i>Home.java</i></b> you need to insert the following:
 
-~~~java
+~~~Java
 	  coffeeFragment = new CoffeeFragment(); //create a new Fragment
 	  getFragmentManager().beginTransaction().add(R.id.fragment_layout, coffeeFragment).commit(); // add it to the current activity
 
