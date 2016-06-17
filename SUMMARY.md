@@ -16,7 +16,7 @@
    * [Step 05](session2/lab/md/step05.md)
    * [Exercises](session2/lab/md/exercises.md)
 * [Lab 03: CoffeeMate 2.0](lab03_md.md)
-   * [Objectives](session3/lab/md/objectives.md)
+   * [Objectives](session03/lab/md/objectives.md)
    * [Step 01](session3/lab/md/step01.md)
    * [Step 02](session3/lab/md/step02.md)
    * [Step 03](session3/lab/md/step03md.md)
