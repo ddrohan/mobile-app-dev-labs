@@ -63,7 +63,8 @@ The only thing we need to do at this stage is create an instance of our custom a
     setListAdapter (listAdapter);
 ~~~
 
-##
+---
+
 
 The last thing we need to do is attach this Fragment to the Home Screen, so inside our <b><i>onResume()</i></b> method in <b><i>Home.java</i></b> you need to insert the following:
 
