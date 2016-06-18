@@ -4,7 +4,7 @@ In this Lab, you will be required to refactor our CoffeeMate Case Study, called 
 
 - use 'Bundles' to pass data between activities.
 
-- apply styles to different widgets on different layouts.
+- use Custom Layouts.
 
 - use Custom Adapters.
 
