@@ -47,3 +47,5 @@ goToActivity(this,Home.class,null);
 
 Run the App once again to confirm the add feature is now implemented.
 
+Now, if you're not seeing your list of coffees (albeit in a very rudimentary list!) you might need to take another look at your <b>Home</b> Activity and try and work out what's missing - but don't worry, it's in the solution.
+
