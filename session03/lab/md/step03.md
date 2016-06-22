@@ -23,7 +23,7 @@ Inside <b>CoffeeItem.java</b> you will need to finish the <b><i>updateControls()
 
 ~~~java
 private void updateControls(Coffee coffee) {
-		((TextView) view.findViewById(R.id.rowCoffeeName)).setText(coffee.getCoffeeName());
+		((TextView) view.findViewById(R.id.rowCoffeeName)).setText(coffee.name);
 		
 		// Do the same for shop, rating, price & the favourite image here
 		// and set the favourite on/off depending on the coffees favourite value	
