@@ -8,7 +8,7 @@ Once you import the <b>CoffeeMate 2.0 Starter</b> Project it should looks as fol
 
 ![](../img/starter.png)
 
-Take a few moments to familiarise yourself with the <b>new (highlighted)</b> Activities, Classes in your project and explore the resources that you will be referring to throughout the lab, especially the layouts in both 'Graphical Layout' view and 'XML' view. It's also probably a good idea to run the App at this stage too, so you can set up your AVD (if you haven't done so already) and confirm that the starter app is configured properly and running (although you'll only see a blank screen!).
+Take a few moments to familiarise yourself with the <b>new (highlighted)</b> Activities, Classes in your project and explore the resources that you will be referring to throughout the lab, especially the layouts in both 'Graphical Layout' view and 'XML' view. It's also probably a good idea to run the App at this stage too, so you can set up your AVD (if you haven't done so already) and confirm that the starter app is configured properly and running (so basically it's Version 1 with a few style changes).
 
 In this lab, you are required to do the following:
 
