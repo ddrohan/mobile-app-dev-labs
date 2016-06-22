@@ -14,31 +14,32 @@ There's two new instance variables
   protected CoffeeFragment    coffeeFragment; // How we'll 'share' our List of Coffees between Activities
 ~~~
 
-The first thing to do is refactor the Home Screen <b><i>onCreate()</i></b> method to make use of these helper methods, so have a look again at the current implementation:
+The first thing to do is refactor the Home Screen <b><i>onCreate()</i></b> method to make use of a helper method, (<b><i>setupCoffees()</i></b>) so make sure your new <b><i>onCreate()</i></b> method looks something like this:
 
 ~~~java
-  @Override
-  public void onCreate(Bundle savedInstanceState) {
-    super.onCreate(savedInstanceState);
-
-    setContentView(R.layout.home);
-    coffeeListTextView = (TextView) findViewById(R.id.recentlyAddedListEmpty);
-
-    Button addACoffeeButton = (Button) findViewById(R.id.addACoffeeBtn);
-    addACoffeeButton.setOnClickListener(this);
-  }
-~~~
-
-Make sure your new <b><i>onCreate()</i></b> method looks something like this:
-
-~~~java
-  @Override
-    public void onCreate(Bundle savedInstanceState) {
+  protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-     
         setContentView(R.layout.home);
-        // Comment out on first run of app
-        setupCoffees(); 
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        toolbar.setLogo(R.drawable.ic_launcher1);
+
+        recentList = (TextView) findViewById(R.id.recentlyAddedListEmpty);
+
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Snackbar.make(view, "Information", Snackbar.LENGTH_LONG)
+                        .setAction("More Info...", new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                openInfoDialog(Home.this);
+                            }
+                        }).show();
+            }
+        });
+        setupCoffees();
     }
 ~~~
 
