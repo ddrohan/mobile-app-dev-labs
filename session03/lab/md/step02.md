@@ -3,12 +3,9 @@
 When we're finsihed this lab, we'll have something like this
 
 ![](../img/lab0301.png)
+So, first of all, have a quick look again at the resource layout (home.xml). We're using a <b><i>FrameLayout</i></b> as the container for our List of Coffees, which ultimately holds a <b>Fragment</b>, but we'll talk more about that later.
 
-So, first of all, have a quick look again at the resource layout (home.xml). Notice that the buttons don't look like buttons in the conventional sense anymore. They're still buttons, we've just applied a <b><i>Style</i></b> to make them a bit more presentable. The style <i>@style/homeScreenButton</i> is being used to give the buttons a different look and feel, so ensure your buttons look similar. 
-
-Also, we're using a <b><i>FrameLayout</i></b> as the container for our List of Coffees, which ultimately holds a <b>Fragment</b>, but we'll talk more about that later.
-
-Once you've had a look at the layout, open your <b>Base.java</b> Activity class and familiarise yourself with the new variables/methods this class now has. 
+Once you've had a look at the layout, open your <b>Base.java</b> Activity class and familiarize yourself with the new variables this class now has. 
 
 There's two new instance variables 
 
@@ -16,20 +13,6 @@ There's two new instance variables
   protected Bundle            activityInfo; // Used for persistence (of sorts)
   protected CoffeeFragment    coffeeFragment; // How we'll 'share' our List of Coffees between Activities
 ~~~
-
-And there's a number of helper methods for accessing different widgets on our layouts, for example:
-
-~~~java
-  protected EditText getEditText(int id) {
-    return ((EditText) findViewById(id));
-  }
-
-  protected String getEditString(int id) {
-    return (getEditText(id)).getText().toString();
-  }
-~~~
-
-Make sure you understand how all these methods in <b>Base.java</b> work, as you'll be referring to them quite a lot!
 
 The first thing to do is refactor the Home Screen <b><i>onCreate()</i></b> method to make use of these helper methods, so have a look again at the current implementation:
 
