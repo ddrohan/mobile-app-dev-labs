@@ -43,10 +43,8 @@ The first thing to do is refactor the Home Screen <b><i>onCreate()</i></b> metho
     }
 ~~~
 
-and you understand it. Note that we have removed the Eventlistener settings - we now handle <b><i>onClick()</i></b> events in the layout (via the xml).
+Note that we have removed any Eventlistener settings - we now handle <b><i>onClick()</i></b> events in the layout (via the xml).
 
-The <b><i>setupCoffees()</i></b> method adds a few Coffee objects to our static <b><i>coffeeList</i></b>, so have a go at implementing this in <b>Home.java</b>.
-
-Run the App again just to confirm you're not seeing a blank screen anymore.
+The <b><i>setupCoffees()</i></b> method adds a few Coffee objects to our static <b><i>coffeeList</i></b>, so maybe run the App again just to confirm you're not seeing a blank screen anymore, but your coffees.
 
 Next we'll start with the task of displaying our Coffees in a custom ListView.
