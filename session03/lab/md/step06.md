@@ -18,7 +18,7 @@ And here's how we set the title 'field' to the name of the coffee
 setTextViewString(R.id.coffeeNameTextView, aCoffee.getCoffeeName());
 ~~~
 
-Run the app again, and see what you get - now have a go at the rest of the coffee data using the helper methods from the Base class.
+Run the app again, and see what you get - now have a go at the rest of the coffee data yourself.
 
 The completed section of missing code is as follows:
 
