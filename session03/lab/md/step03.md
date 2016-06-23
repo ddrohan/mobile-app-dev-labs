@@ -40,11 +40,47 @@ It's worth noting that this class is a <i><u>custom</u></i> adapter class, and i
 
 To "customise" our adapter, we first say that it will manage Coffee Objects (already done) :
 
-![](../img/lab0305.png)
+~~~Java
+public class CoffeeListAdapter extends ArrayAdapter<Coffee> 
+{
+...
+~~~
 
 and then override a number of methods:
 
-![](../img/lab0304.png)
+~~~Java
+  @Override
+  public View getView(int position, View convertView, ViewGroup parent)
+  {
+    return null;
+  }
+
+  @Override
+  public int getCount()
+  {
+    return 0;
+  }
+  
+  @Override
+  public Coffee getItem(int position)
+  {
+	  return null;
+  }
+
+  @Override
+  public long getItemId(int position)
+  {
+    return 0;
+  }
+
+  @Override
+  public int getPosition(Coffee c)
+  {
+    return 0;
+  }
+}
+~~~
+
 
 Remember, the <b><i>getView()</i></b> method is auotmatically called for every object that exists in the underlying data (ie our coffeeList) so you should be returning a <b>CoffeeItem</b> reference here - try and have a go at this without referring to the notes.
 
@@ -56,7 +92,7 @@ The main purpose of this class is to allow us to reuse a component (the Fragment
 
 ![](../img/lab0306.png)
 
-The only thing we need to do at this stage is create an instance of our custom adapter and associate it with our Fragment, so inside the <b><i>onCreate()</i></b> method insert the following:
+The only thing we need to do at this stage is create an instance of our custom adapter and associate it with our Fragment, so inside the <b><i>onCreate()</i></b> method of the fragment insert the following:
 
 ~~~Java
     listAdapter = new CoffeeListAdapter(activity, this, Base.coffeeList);
@@ -69,12 +105,24 @@ The only thing we need to do at this stage is create an instance of our custom a
 The last thing we need to do is attach this Fragment to the Home Screen, so inside our <b><i>onResume()</i></b> method in <b><i>Home.java</i></b> you need to insert the following:
 
 ~~~Java
-	  coffeeFragment = new CoffeeFragment(); //create a new Fragment
+	  coffeeFragment = CoffeeFragment.newInstance(); //get a new Fragment instance
 	  getFragmentManager().beginTransaction().add(R.id.fragment_layout, coffeeFragment).commit(); // add it to the current activity
-
 ~~~
 
-If you run your app again you should see your list displayed on the Home Screen like so:
+You'll get an error on <i>R.id.fragment_layout</i> so you need to replace the <b>ListView</b> element in <b>content_home.xml</b> with the following:
+
+~~~xml
+<FrameLayout
+	        android:id="@+id/fragment_layout"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_above="@+id/footerLinearLayout"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_alignParentTop="true" />
+~~~
+
+Build your project and if you run your app again you should see your list displayed on the Home Screen like so:
 
 ![](../img/lab0301.png)
 
