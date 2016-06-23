@@ -46,7 +46,7 @@ android:onClick="toggle"
 favouriteImage = (ImageView) findViewById(R.id.favouriteImageView);
 ~~~
 
-and you need to retrieve the 'coffeeID' from the Bundle, and get the coffee from our list using the <b><i>getCoffeeObject()</i></b> helper method - once again, try and have a go at this without referring to the solution code below:
+and you need to retrieve the 'coffeeID' from the Bundle, and get the coffee from our list using the <b><i>getCoffeeObject()</i></b> helper method - once again, try and have a go at this without referring to the solution code:
 
 (and here it is!)
 
