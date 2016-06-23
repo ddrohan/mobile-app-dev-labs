@@ -101,7 +101,6 @@ The only thing we need to do at this stage is create an instance of our custom a
 
 ---
 
-
 The last thing we need to do is attach this Fragment to the Home Screen, so inside our <b><i>onResume()</i></b> method in <b><i>Home.java</i></b> you need to insert the following:
 
 ~~~Java
@@ -122,7 +121,7 @@ You'll get an error on <i>R.id.fragment_layout</i> so you need to replace the <b
 	        android:layout_alignParentTop="true" />
 ~~~
 
-Build your project and if you run your app again you should see your list displayed on the Home Screen like so:
+Build your project and if you run your app again you should see your list displayed on the Home Screen like so (with a small bug to fix!) :
 
 ![](../img/lab0301.png)
 
