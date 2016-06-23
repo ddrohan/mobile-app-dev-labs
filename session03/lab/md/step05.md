@@ -61,7 +61,7 @@ and you need to retrieve the 'coffeeID' from the Bundle, and get the coffee from
 
 Now if you run your app, and select a row, you should launch the 'Edit' Screen.
 
-![](../img/lab0309.png)
+![](../img/lab0308.png)
 
 However, there's nothing to edit - so that's the next step - displaying the coffee data so we can change it.
 
