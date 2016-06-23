@@ -15,7 +15,7 @@ First of all, open your <i>edit.xml</i> layout and familarise yourself with the 
 And here's how we set the title 'field' to the name of the coffee
 
 ~~~java
-setTextViewString(R.id.coffeeNameTextView, aCoffee.getCoffeeName());
+((EditText)findViewById(R.id.nameEditText)).setText(aCoffee.name);
 ~~~
 
 Run the app again, and see what you get - now have a go at the rest of the coffee data yourself.
