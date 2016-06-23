@@ -34,7 +34,7 @@ Once you have that done, the rest of the work we need to do is carried out in th
 
 Any ideas why??
 
-The first thing to do is setup the correct view for the activity - this is done using the <b><i>setContentView()</i></b> method, so see can you implement that, without referring to the solution below.
+Next thing to do is setup the correct view for the activity - this is done using the <b><i>setContentView()</i></b> method, so see can you implement that, without referring to the solution below.
 
 Also you need to 'bind' to and setup event handling on <i>favouriteImage</i> in the xml to avoid a NullPointerException, as follows:
 
