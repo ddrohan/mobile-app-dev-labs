@@ -10,7 +10,7 @@ We can now launch the Edit Screen, but nothing gets displayed, so there's nothin
 
 First of all, open your <i>edit.xml</i> layout and familarise yourself with the 'names' or id's of all the relevant views you need to access (<i><u>coffeeNameTextView</u></i> is highlighted in the screenshot below).
 
-![](../img/lab0310.png)
+![](../img/lab0309.png)
 
 And here's how we set the title 'field' to the name of the coffee
 
