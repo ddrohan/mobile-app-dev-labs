@@ -125,6 +125,6 @@ Build your project and if you run your app again you should see your list displa
 
 ![](../img/lab0301.png)
 
-and you should be able to "Add a Coffee" so make sure to check this functionality.
+and you should be able to "Add a Coffee" so make sure to check this functionality. On a related note, you've probably noticed your list 'duplicates' the data, so it's worth removing the <b>setupCoffees()</b> method, now we know our 'Add' works.
 
 However, if you select a row in the list, or select the 'delete' button, nothing happens - that's the next step.
