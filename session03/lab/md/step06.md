@@ -59,20 +59,17 @@ with our <b>toggle()</b> method looking something like this:
 public void toggle(View arg0) {
 
 		if (isFavourite) {
-			aCoffee.setFavourite(0);
-			Toast.makeText(context, "Removed From Favourites",
-					Toast.LENGTH_SHORT).show();
+			aCoffee.favourite = false;
+			toastMessage("Removed From Favourites");
 			isFavourite = false;
-			favouriteImage
-					.setImageResource(R.drawable.ic_favourite_off);			
+			favouriteImage.setImageResource(R.drawable.ic_favourite_off);
 		} else {
-			aCoffee.setFavourite(1);
-			Toast.makeText(context, "Added to Favourites !!",
-					Toast.LENGTH_SHORT).show();
+			aCoffee.favourite = true;
+			toastMessage("Added to Favourites !!");
 			isFavourite = true;
 			favouriteImage.setImageResource(R.drawable.ic_favourite_on);
-		}			
-	} 
+		}
+	}
 ~~~
 
 It's still not finished however - there's a small but significant bug in loading up the correct coffee to update on the edit screen and the <i><b>update()</b></i> method is nearly complete, but there's a few lines of (very important) code still to be added, so run the app once more and try and identiy what needs to be done to fully implement this Edit/Update feature.
