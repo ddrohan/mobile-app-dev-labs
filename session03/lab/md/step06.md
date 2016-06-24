@@ -23,21 +23,22 @@ Run the app again, and see what you get - now have a go at the rest of the coffe
 The completed section of missing code is as follows:
 
 ~~~java
+		setContentView(R.layout.edit);
+
 		activityInfo = getIntent().getExtras();
 		aCoffee = getCoffeeObject(activityInfo.getInt("coffeeID"));
 
-		setContentView(R.layout.edit);
-		setTextViewString(R.id.coffeeNameTextView, aCoffee.getCoffeeName());
-		setTextViewString(R.id.coffeeShopTextView, aCoffee.getShop());
+		((TextView)findViewById(R.id.coffeeNameTextView)).setText(aCoffee.name);
+		((TextView)findViewById(R.id.coffeeShopTextView)).setText(aCoffee.shop);
 
-		setEditString(R.id.nameEditText, aCoffee.getCoffeeName());
-		setEditString(R.id.shopEditText, aCoffee.getShop());
-		setEditDouble(R.id.priceEditText, aCoffee.getPrice());
-		setRatingBarValue(R.id.coffeeRatingBar, (float)aCoffee.getRating());
+		((EditText)findViewById(R.id.nameEditText)).setText(aCoffee.name);
+		((EditText)findViewById(R.id.shopEditText)).setText(aCoffee.shop);
+		((EditText)findViewById(R.id.priceEditText)).setText(""+aCoffee.price);
+		((RatingBar) findViewById(R.id.coffeeRatingBar)).setRating((float)aCoffee.rating);
 
 		favouriteImage = (ImageView) findViewById(R.id.favouriteImageView);
 
-		if (aCoffee.getFavourite() == 1) {
+		if (aCoffee.favourite == true) {
 			favouriteImage.setImageResource(R.drawable.ic_favourite_on);
 			isFavourite = true;
 		} else {
@@ -74,6 +75,6 @@ public void toggle(View arg0) {
 	} 
 ~~~
 
-It's still not finished however - the <i><b>update()</b></i> method is nearly complete, but there's a few lines of (very important) code still to be added, so run the app once more and try and identiy what needs to be done to fully implement this Edit/Update feature.
+It's still not finished however - there's a small but significant bug in loading up the correct coffee to update on the edit screen and the <i><b>update()</b></i> method is nearly complete, but there's a few lines of (very important) code still to be added, so run the app once more and try and identiy what needs to be done to fully implement this Edit/Update feature.
 
 You'll find the necessary code extracts in the the next step, but try and have a go before you proceed.
