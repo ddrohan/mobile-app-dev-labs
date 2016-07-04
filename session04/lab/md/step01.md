@@ -6,7 +6,7 @@ Once you open the <b>CoffeeMate 3.0 Starter</b> Project in Android Studio it sho
 
 ![](../img/starter.3.png)
 
-Take a few moments to familiarise yourself with the <b>new</b> classes and layouts in your project and explore the resources that you will be referring to throughout the lab, especially the layouts in both 'Graphical Layout' view and 'XML' view. It's also probably a good idea to run the App at this stage too, so you can set up your AVD (if you haven't done so already) and confirm that the starter app is configured properly and running (although you'll only see a blank screen!).
+Take a few moments to familiarise yourself with the <b>new</b> classes in your project and explore the resources that you will be referring to throughout the lab, especially the new layouts in both 'Design' view and 'Text' view. It's also probably a good idea to run the App at this stage too, so you can set up your AVD (if you haven't done so already) and confirm that the starter app is configured properly and running (although 'Search' and 'Favourites' don't really do anything).
 
 In this lab, you are required to do the following:
 
