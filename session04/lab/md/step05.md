@@ -26,7 +26,21 @@ public class SearchFragment extends CoffeeFragment
 }
 ~~~
 
-There's not much in there, so the first thing we'll do is add some choices to the Spinner so the user can filter on a 'type'.
+There's not much in there, so the first add the following :
+
+~~~java
+public SearchFragment() {
+		// Required empty public constructor
+	}
+
+	public static SearchFragment newInstance() {
+		SearchFragment fragment = new SearchFragment();
+		return fragment;
+	}
+~~~
+
+
+And the next thing we'll do is add some choices to the Spinner so the user can filter on a 'type'.
 
 We'll use an Adapter to populate the Spinner data so have a go at completing the following:
 
