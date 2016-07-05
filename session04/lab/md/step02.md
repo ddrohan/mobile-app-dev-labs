@@ -2,7 +2,7 @@
 
 When we're finsihed this lab, we'll be able to display the users Favourite coffees and apply a filter to the list of coffees so the user can search on a coffee name or type, or both. If you've run the starter code (and it's recommended you do) you'll see that the 'Search' & 'Favourites' buttons are working, but not functioning properly - we're not seeing any refined list of coffees.
 
- ![](../img/lab0402.png) ![](../img/lab0403.png)
+ ![](../img/lab0402a.png) ![](../img/lab0403a.png)
 
 Furthermore, there's nothing to select from the Spinner (second screenshot above) so this lab is all about refactoring existing classes to get these features working.
 
