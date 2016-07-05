@@ -93,5 +93,4 @@ public class Home extends Base {
         coffeeList.add(new Coffee("Espresso", "Ardkeen Stores",4.5,1.49,true));
     }
 }
-
 ~~~
