@@ -7,17 +7,14 @@ If you recall in <b><i>CoffeeMate 2.0</i></b> we used a <b><i>Fragment</i></b> t
 The first thing we'll do is add the Fragment to our <b>Search.java</b> and <b>Favourites.java</b> Activity classes. This is pretty staright forward as we have already done this in our <b>Home.java</b> in <b><i>CoffeeMate 2.0</i></b>.
 
 ~~~java
-@Override
-  protected void onResume() {
-    super.onResume();
-
-    coffeeFragment = new CoffeeFragment();
-    getFragmentManager().beginTransaction()
-        .add(R.id.fragment_layout, coffeeFragment).commit();
-  }
+  coffeeFragment = CoffeeFragment.newInstance(); //get a new Fragment instance
+            getFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.fragment_layout, coffeeFragment)
+                    .commit(); // add/replace in the current activity
 ~~~
 
-You can literally cut & paste the above code into both activity classes and run the app, so see what you get?
+You can literally cut & paste the above code into both activity classes <b>onResume()</b> method and run the app, so see what you get?
 
 You should be seeing something like the following :
 
