@@ -78,4 +78,4 @@ HINT: the <i>filter</i> method of our coffee filter takes a String to filter on 
 
 Once you have that up and running you should be seeing something like this:
 
-![](../img/lab0407.png) ![](../img/lab0412.png)
+![](../img/lab0407.png) ![](../img/lab0410.png)
