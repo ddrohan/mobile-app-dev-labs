@@ -31,9 +31,10 @@ Application objects need to be referenced in the AndroidManifest.xml - at the ve
 ~~~xml
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" 
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
         android:name="ie.cm.main.CoffeeMateApp">
 ~~~
 
@@ -49,9 +50,9 @@ The Base class will now look something like this
 
 public class Base extends Activity {
 
-  public CoffeeMateApp  app; 
-  protected Bundle    activityInfo;
-  public Fragment     coffeeFragment;
+  public    CoffeeMateApp  app; 
+  protected Bundle         activityInfo;
+  public    Fragment       coffeeFragment;
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
