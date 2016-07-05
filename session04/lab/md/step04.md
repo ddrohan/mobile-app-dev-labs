@@ -38,5 +38,7 @@ If you run the app again, and select the Favourites Button, you should now see j
 
 Note that we didn't have to modify a single line of code in our <b>Favourites.java</b> Activity class.
 
+There's still a few issues with our <b>Favourites</b> though, if you've done some proper testing? Can you identify the bug - and how to fix it?
+
 Next we'll look at searching our coffees by name and/or type.
 
