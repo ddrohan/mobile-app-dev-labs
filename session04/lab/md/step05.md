@@ -10,8 +10,8 @@ Have a quick look at the existing <b><i>SearchFragment</i></b> class:
 public class SearchFragment extends CoffeeFragment
 		 {
 	@Override
-	public void onAttach(Activity activity) {
-		super.onAttach(activity);
+	public void onAttach(Context c) {
+		super.onAttach(c);
 	}
 
 	@Override
