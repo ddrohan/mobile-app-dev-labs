@@ -16,24 +16,19 @@ and use Android Studio to implement the interface methods like so
 
 ![](../img/lab0409.png)
 
-Next, your fragment class name will show an error (have a red underline) so, if you move your mouse over the class name you'll have the option of implementing and overriding the necessary methods:
-
-![](../img/lab0410.png)
 
 and you get the following:
 
 ~~~java
   @Override
-  public void onItemSelected(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
-    // TODO Auto-generated method stub
-    
-  }
+	public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+	
+    }
 
-  @Override
-  public void onNothingSelected(AdapterView<?> arg0) {
-    // TODO Auto-generated method stub
-    
-  }
+	@Override
+	public void onNothingSelected(AdapterView<?> parent) {
+
+	}
 ~~~
 
 We only need to complete the <i>onItemSelected</i> method to filter our list when the user selects a particular 'type' of coffee, as follows:
