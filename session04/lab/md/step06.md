@@ -6,7 +6,13 @@ If you haven't been doing so already, you should definitely make use of the Ecli
 
 #Handling the Spinner with the <u>OnItemSelectedListener</u> interface
 
-First of all, ensure your <b>SearchFragment</b> implements the correct interface and import it like so (by moving your mouse over the interface name):
+First of all, ensure your <b>SearchFragment</b> implements the correct interface 
+
+~~~java
+implements AdapterView.OnItemSelectedListener
+~~~
+
+and use Android Studio to implement the interface methods like so 
 
 ![](../img/lab0409.png)
 
