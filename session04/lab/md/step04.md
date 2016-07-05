@@ -26,7 +26,7 @@ Once you have the filter set up, the next step is to call it's filter method cor
 
 ~~~java
 if (getActivity() instanceof Favourites) {
-      coffeeFilter.setFilter("favourites"); // Set the filter text field to 'favourites'
+      coffeeFilter.setFilter("favourites"); // Set the filter text field from 'all' to 'favourites'
       coffeeFilter.filter(null); // Filter the data, but don't use any prefix
       listAdapter.notifyDataSetChanged(); // Update the adapter
     }
