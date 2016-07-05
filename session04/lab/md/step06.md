@@ -76,6 +76,10 @@ There's actually very little code necessary to implement this feature, so see if
 
 HINT: the <i>filter</i> method of our coffee filter takes a String to filter on and you need to add the relevant listener to the <b><i>EditText</i></b>.
 
-Once you have that up and running you should be seeing something like this:
+Once you have that up and running you should be seeing something like this during filtering:
 
-![](../img/lab0407.png) ![](../img/lab0410.png)
+![](../img/lab0407.png) 
+
+![](../img/lab0410.png)
+
+![](../img/lab0411.png)
