@@ -10,12 +10,12 @@ Next, have a look at the constructor
 
 ~~~java
 public CoffeeFilter(List<Coffee> originalCoffeeList, String filterText,
-      CoffeeListAdapter adapter) {
-    super();
-    this.originalCoffeeList = originalCoffeeList;
-    this.filterText = filterText;
-    this.adapter = adapter;
-  }
+			CoffeeListAdapter adapter) {
+		super();
+		this.originalCoffeeList = originalCoffeeList;
+		this.filterText = filterText;
+		this.adapter = adapter;
+	}
 ~~~
 
 and see if you can create an instance called <i>coffeeFilter</i> inside our <i>CoffeeFragment</i> without referring to the notes.
