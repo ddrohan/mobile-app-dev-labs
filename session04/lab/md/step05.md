@@ -67,6 +67,10 @@ If you run your app again, you would expect to see the Spinner showing data - bu
 
 If you've spotted what needed to be changed, run the app one more time and you should now be seeing something like this when you click on the Spinner.
 
-![](../img/lab0407.png) and ![](../img/lab0408.png)
+![](../img/lab0407.png) 
+
+and 
+
+![](../img/lab0408.png)
 
 The last step is to add the listeners for the <b><i>Spinner</i></b> and <b><i>EditText</i></b> widgets to filter the list on the users selections.
