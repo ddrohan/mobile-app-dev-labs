@@ -46,32 +46,30 @@ We only need to complete the <i>onItemSelected</i> method to filter our list whe
     }
 ~~~
 
-Once again, be clear about what is going here. The last thing to do is set the spinners listener, so have a go at this method call. 
+Once again, be clear about what is going here. 
+
+The last thing to do is set the spinners listener, so have a go at this method call. 
 If you like, you can run the app, just to see if this works like it should.
 
 #Handling the EditText with the <u>TextWatcher</u> interface
 
-Similar to handling the <b><i>Spinner</i></b> try and use the Eclipse features to implement the <b><i>TextWatcher</i></b> interface. If you've done this correctly you'll have the following method stubs:
+Similar to handling the <b><i>Spinner</i></b> try and use the Android Studio features to implement the <b><i>TextWatcher</i></b> interface. If you've done this correctly you'll have the following method stubs:
 
 ~~~java
 @Override
-  public void afterTextChanged(Editable s) {
-    // TODO Auto-generated method stub
-    
-  }
+	public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+		
+	}
 
-  @Override
-  public void beforeTextChanged(CharSequence s, int start, int count,
-      int after) {
-    // TODO Auto-generated method stub
-    
-  }
+	@Override
+	public void onTextChanged(CharSequence s, int start, int before, int count) {
 
-  @Override
-  public void onTextChanged(CharSequence s, int start, int before, int count) {
-    // TODO Auto-generated method stub
-    
-  }
+	}
+
+	@Override
+	public void afterTextChanged(Editable s) {
+
+	}
 ~~~
 
 There's actually very little code necessary to implement this feature, so see if you can complete this final step without referring to the lecture material.
