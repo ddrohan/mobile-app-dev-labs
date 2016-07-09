@@ -15,6 +15,7 @@ In this lab, you are required to do the following:
 - Carry out a complete refactoring of the project to
     - update existing Fragments for usage with a Navigaation Drawer
     - implement new Fragments to add in the neccessary extra functionality
+    - remove any residual classes and resources no longer needed.
 
 
 - Add Database Support to CoffeeMate to manage our coffees
