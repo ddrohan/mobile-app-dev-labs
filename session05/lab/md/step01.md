@@ -1,8 +1,6 @@
 #Setup - Starter Code
 
-As with the previous lab, you can download some starter code for this lab here - [CoffeeMate.4.0.Starter](../archives/CoffeeMate.4.0.Starter.zip). It contains all the resources you'll need to complete this lab along with some of the code.
-
-To open this in eclipse, first extract the archive somewhere on our hard disk (preferably, your workspace). Then, in Eclipse, select 'File->Import' menu option, and in the dialog select 'Existing Projects into Workspace' (like you did in Lab 3)
+As this version of our case study has been substantially refactored to begin with, it's strongly recommended you download the starter code for this lab here - [CoffeeMate.4.0.Starter](../archives/CoffeeMate.4.0.Starter.zip). It contains all the resources you'll need to complete this lab along with some of the code and features already completed.
 
 Once you import the <b>CoffeeMate 4.0 Starter</b> Project it should looks as follows:
 
