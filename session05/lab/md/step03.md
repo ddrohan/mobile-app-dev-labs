@@ -6,6 +6,35 @@ First, go ahead and create a new (Blank) Fragment called <b>AddFragment</b> in t
 
  ![](../img/lab502.png)
 
-The Login Screen looks like this:
+You'll get a fair bit of 'boilerplate' code, which we don't need, so before continuing, ensure your new AddFragment initially looks like
 
- ![](../img/lab504.png)
+~~~java
+public class AddFragment extends Fragment {
+
+    public AddFragment() {
+        // Required empty public constructor
+    }
+
+
+    // TODO: Rename and change types and number of parameters
+    public static AddFragment newInstance() {
+        AddFragment fragment = new AddFragment();
+
+        return fragment;
+    }
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+     
+    }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_add, container, false);
+    }
+
+}
+~~~
