@@ -1,6 +1,6 @@
-#Adding a Login Screen
+#App Refactoring - Our 'Add' Option
 
-Now we'll add in a very basic level of security - we'll get the user to login before they can use the app. First thing to do is download the necessary resources in [loginresources](../archives/loginresources.zip) and add them to the relevant packages/folders in your project. 
+Once you've properly tested the latest version of CoffeeMate, you'll see that we only have The 'Home' & 'View Favourites' implemented (from the starter App). This step will take you through building a new Fragment <b>AddFragment</b> and reusing a lot of the 'Add' activity code and resources. 
 
 (You can literally drag-and-drop the files into eclipse! <b>NOTE : Make sure you drop in the images first or you'll get a number of errors in your resources file</b>)
 
