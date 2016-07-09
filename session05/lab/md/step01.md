@@ -16,6 +16,7 @@ In this lab, you are required to do the following:
     - update existing Fragments for usage with a Navigaation Drawer
     - implement new Fragments to add in the neccessary extra functionality
 
+
 - Add Database Support to CoffeeMate to manage our coffees
 
 The following steps will guide you through these requirements, so we'll start with Splash Screen.
