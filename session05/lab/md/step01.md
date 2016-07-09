@@ -13,8 +13,8 @@ In this lab, you are required to do the following:
 - Add a Splash Screen (to make the app a bit more 'appealing')
 
 - Carry out a complete refactoring of the project to
-    - update existing Fragments for usage with a Navigaation Drawer
-    - implement new Fragments to add in the neccessary extra functionality
+    - update existing Fragments for usage with a Navigation Drawer
+    - implement new Fragments to add in the necessary extra functionality
     - remove any residual classes and resources no longer needed
 
 
