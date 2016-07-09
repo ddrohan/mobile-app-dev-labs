@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+
+  <title> Lab 4: CoffeeMate 4.0 - Database Support </title>
+  
+    <style type="text/css">
+    table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+      margin: 0; padding: 0; vertical-align: baseline; border: none; }
+    table.sourceCode { width: 100%; line-height: 100%; }
+    td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+    td.sourceCode { padding-left: 5px; }
+    code > span.kw { color: #007020; font-weight: bold; }
+    code > span.dt { color: #902000; }
+    code > span.dv { color: #40a070; }
+    code > span.bn { color: #40a070; }
+    code > span.fl { color: #40a070; }
+    code > span.ch { color: #4070a0; }
+    code > span.st { color: #4070a0; }
+    code > span.co { color: #60a0b0; font-style: italic; }
+    code > span.ot { color: #007020; }
+    code > span.al { color: #ff0000; font-weight: bold; }
+    code > span.fu { color: #06287e; }
+    code > span.er { color: #ff0000; font-weight: bold; }
+  </style>
+  
+  <link rel="stylesheet" href="./style/bootstrap.min.css" type="text/css">  
+  <link rel="stylesheet" href="./style/clarity.css" type="text/css"> 
+
+  <link rel="stylesheet" href="./style/highlight.css">
+  <script src="./style/highlight.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+
+<body>
+  <div class="container-fluid">
+
+    <!----------------------------------------------------------------------------------------->
+   <style> body  { padding-top: 60px; } </style>    <div class="navbar navbar-fixed-top">
+      <p id="title">Lab 4: CoffeeMate 4.0 - Database Support&nbsp;&nbsp;</p>
+      <div class="navbar-inner">
+        <ul class="nav">
+          <li><a href="objectives.html">Objectives</a></li>
+          <li><a href="step01.html">01</a></li>
+          <li><a href="step02.html">02</a></li>
+          <li class="active"><a href="step03.html">03</a></li>
+          <li><a href="step04.html">04</a></li>
+          <li><a href="step05.html">05</a></li>
+          <li><a href="solution.html">Solution</a></li>
+        </ul>
+        <p class="navbar-text pull-right"> <a href="http://www.jumpyjosh.com/wit/androidy5/practicals/default.html"> Mobile Application Development 'MAD'</a> &nbsp; &nbsp;</p>
+      </div>
+    </div>
+    <!----------------------------------------------------------------------------------------->
+
+
+<h1 id="adding-a-login-screen">Adding a Login Screen</h1>
+<p>Now we'll add in a very basic level of security - we'll get the user to login before they can use the app. First thing to do is download the necessary resources in <a href="../archives/loginresources.zip">loginresources</a> and add them to the relevant packages/folders in your project.</p>
+<p>(You can literally drag-and-drop the files into eclipse! <b>NOTE : Make sure you drop in the images first or you'll get a number of errors in your resources file</b>)</p>
+<p>You may also get a resource error on the layout regarding a colour, so if you do, update your 'colors.xml' with the following</p>
+<pre class="sourceCode java"><code class="sourceCode java"> &lt;color name=<span class="st">&quot;bar_black_text&quot;</span>&gt;#<span class="dv">000000</span>&lt;/color&gt;</code></pre>
+<p>The Login Screen looks like this:</p>
+<div class="figure">
+<img src="../img/lab504.png" />
+</div>
+<p>so modify your <b>Splash.java</b> to load this Screen before any other Screens.</p>
+<p>If you now run the app and click the Login Button, you'll notice nothing happens, so the next thing to do is implement the <b><i>onClick()</i></b> event for this activity. The <i>SharedPreferences</i> are initially set up, so have a look at that, to see how it was done, to give you an idea on how to complete this step.</p>
+<p>The solution is on the next step, but try and have a go at completing it before you take a look. To help you along you need to do the following:</p>
+<ul>
+<li><p>Grab the email and password entered (you should use a <i>CharSequence</i> object for this)</p></li>
+<li><p>Validate both for being empty and/or the correct combination (You can just hardcode in the correct details at this stage)</p></li>
+<li><p>Once the details are correct, update your SharedPreferences to say the user is logged in, and launch the correct activity.</p></li>
+</ul>
+
+
+      <!----------------------------------------------------------------------------------------->
+      <div id="footer">
+        <p id="footertext">
+          Prepared by  David Drohan (ddrohan@wit.ie). Except where otherwise noted, this content is licensed under a 
+          <a class="externalLink" href="http://creativecommons.org/licenses/by-nc/3.0/" 
+            title="External link to http://creativecommons.org/licenses/by-nc/3.0/" 
+            target="_blank">Creative Commons Attribution-NonCommercial 3.0 License
+          </a>
+        </p>
+      </div>
+
+    </div>
+  </body>
+</html>
+ 
