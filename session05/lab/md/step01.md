@@ -6,15 +6,15 @@ Once you import the <b>CoffeeMate 4.0 Starter</b> Project it should looks as fol
 
 ![](../img/lab501.png)
 
-Take a few moments to familiarise yourself with the <b>new (highlighted)</b> Activities, Classes in your project and explore the resources that you will be referring to throughout the lab, especially the layouts in both 'Graphical Layout' view and 'XML' view. It's also probably a good idea to run the App at this stage too, so you can set up your AVD (if you haven't done so already) and confirm that the starter app is configured properly and running (although you'll only see a blank screen!).
+Take some time to familiarise yourself with the new classes in your project and explore the resources that you will be referring to throughout the lab, especially the layouts in both 'Graphical Layout' view and 'XML' view for the <b>Navigation Drawer</b> (and it's associated resources and menus). It's also probably a good idea to run the App at this stage too, so you can set up your AVD (if you haven't done so already) and confirm that the starter app is configured properly and running as discussed.
 
 In this lab, you are required to do the following:
 
 - Add a Splash Screen (to make the app a bit more 'appealing')
 
-- Use <i><b>SharedPreferences</b></i> and a Login Screen so we can implement some basic Security
-
-- Add a Logout Button to the menu 
+- Carry out a complete refactoring of the project to
+    - update existing Fragments for usage with a Navigaation Drawer
+    - implement new Fragments to add in the neccessary extra functionality
 
 - Add Database Support to CoffeeMate to manage our coffees
 
