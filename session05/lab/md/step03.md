@@ -38,4 +38,10 @@ public class AddFragment extends Fragment {
 }
 ~~~
 
-The next step is to replace the default fragment layout with our existing 'Add' activity layout so once you're done, you should have a layout
+The next step is to replace the default fragment layout with our existing 'Add' activity layout so once you're done, you should have a layout like this for 'fragment_add'
+
+ ![](../img/lab503.png)
+ 
+ We can now go ahead and implement the necessary code to add this fragment to the 'Home Screen' so navigate to your <b>Home</b> activity class and see can you get the add feature working?
+ 
+ 
