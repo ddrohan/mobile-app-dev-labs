@@ -42,7 +42,15 @@ The next step is to replace the default fragment layout with our existing 'Add' 
 
  ![](../img/lab503.png)
  
- We can now go ahead and implement the necessary code to add this fragment to the 'Home Screen'. We won't implement the actual logic just yet, we'll just get the 'Add' screen loading, so navigate to your <b>Home</b> activity class and see can you get the add feature to load the relevant screen.
+ We can now go ahead and implement the necessary code to add this fragment to the 'Home Screen'. We won't implement the actual logic until the next step, we'll just get the 'Add' screen loading, so navigate to your <b>Home</b> activity class and see can you get the add feature to load the relevant screen.
+ 
+ Note : if you get an import error on your <b>AddFragment</b> just ensure you have
+ 
+ ~~~java
+ import android.app.Fragment;
+ ~~~
+ 
+ in your import statements.
  
  
  
