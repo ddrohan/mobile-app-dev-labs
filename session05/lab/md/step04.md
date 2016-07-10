@@ -8,6 +8,8 @@ Here's the code you should have implemented (or something similar) to get the 'A
  ft.commit();
 ~~~
 
+and just for completeness, you may have noticed that the title bar we're using still displays
+
 
 
 Once you've properly tested the latest version of CoffeeMate, you'll see that we only have The 'Home' & 'View Favourites' implemented (from the starter App). This step will take you through building a new Fragment <b>AddFragment</b> and reusing a lot of the 'Add' activity code and resources. 
