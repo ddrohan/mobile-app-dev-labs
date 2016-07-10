@@ -1,4 +1,4 @@
-#App Refactoring - Our 'Add' Option
+#App Refactoring - Our 'Add' Option (Part 1)
 
 Once you've properly tested the latest version of CoffeeMate, you'll see that we only have The 'Home' & 'View Favourites' implemented (from the starter App). This step will take you through building a new Fragment <b>AddFragment</b> and reusing a lot of the 'Add' activity code and resources. 
 
@@ -42,6 +42,8 @@ The next step is to replace the default fragment layout with our existing 'Add' 
 
  ![](../img/lab503.png)
  
- We can now go ahead and implement the necessary code to add this fragment to the 'Home Screen' so navigate to your <b>Home</b> activity class and see can you get the add feature working?
+ We can now go ahead and implement the necessary code to add this fragment to the 'Home Screen'. We won't implement the actual logic just yet, we'll just get the 'Add' screen loading, so navigate to your <b>Home</b> activity class and see can you get the add feature to load the relevant screen.
+ 
+ 
  
  
