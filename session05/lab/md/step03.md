@@ -37,3 +37,5 @@ public class AddFragment extends Fragment {
     }
 }
 ~~~
+
+The next step is to replace the default fragment layout with our existing 'Add' activity layout so once you're done, you should have a layout
