@@ -33,3 +33,4 @@ Now we can implement the logic behind the View to add a new coffee to our list o
 
 We already have all the code we need in our 'Add' activity so go ahead and see can you complete this step without referring to the supporting lecture material.
 
+And don't forget to remove the 'Add' activity (and associated layout) from the project, as we don't need it anymore.
