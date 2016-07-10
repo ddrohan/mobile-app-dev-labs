@@ -2,7 +2,10 @@
 Here's the code you should have implemented (or something similar) to get the 'Add' screen loading
 
 ~~~java
-
+ fragment = AddFragment.newInstance();
+ ft.replace(R.id.homeFrame, fragment);
+ ft.addToBackStack(null);
+ ft.commit();
 ~~~
 
 
