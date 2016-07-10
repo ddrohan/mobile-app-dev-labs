@@ -6,7 +6,7 @@ First, go ahead and create a new (Blank) Fragment called <b>AddFragment</b> in t
 
  ![](../img/lab502.png)
 
-You'll get a fair bit of 'boilerplate' code, which we don't need, so before continuing, ensure your new AddFragment initially looks like
+You'll get a fair bit of 'boilerplate' code, which we don't need for this project, so before continuing, ensure your new AddFragment initially looks like
 
 ~~~java
 public class AddFragment extends Fragment {
