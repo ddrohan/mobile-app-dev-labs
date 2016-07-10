@@ -28,4 +28,8 @@ and just for completeness, you may have noticed that the title bar we're using f
  
  ![](../img/lab505.png)
 
-Once you've properly tested the latest version of CoffeeMate, you'll see that we only have The 'Home' & 'View Favourites' implemented (from the starter App). This step will take you through building a new Fragment <b>AddFragment</b> and reusing a lot of the 'Add' activity code and resources. 
+
+Now we can implement the logic behind the View to add a new coffee to our list of coffees.
+
+We already have all the code we need in our 'Add' activity so go ahead and see can you complete this step without referring to the supporting lecture material.
+
