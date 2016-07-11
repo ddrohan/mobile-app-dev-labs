@@ -1,0 +1,2 @@
+#App Refactoring - Our 'Search' Option (Part 2)
+We'll take a similar approach with this feature as we did with the add feature - we'll get the navigation and screen up and running first, and then implement the logic.
