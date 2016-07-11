@@ -108,3 +108,5 @@ Now, 'wire up' a new instance of this fragment to the Search option on the Navig
 Run the app and confirm you get the following:
 
 ![](../img/lab507.png)
+
+The next step is to bring in the logic so a user can actually search & filter Coffees (like CoffeeMate 3.0).
