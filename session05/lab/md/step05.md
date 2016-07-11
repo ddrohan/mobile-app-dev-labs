@@ -1,7 +1,7 @@
 #App Refactoring - Our 'Search' Option (Part 1)
 We'll take a similar approach with this feature as we did with the add feature - we'll get the navigation and screen up and running first, and then implement the logic.
 
-
+In the previous version of CoffeeMate (Version 3.0) our 'Search' feature was implemented via a separate layout in a Search activity and we extended our <b>CoffeeFragment</b> to customise our Search (in a <b>SearchFragment</b>). To maintain our current <b><i>navigation design pattern</i></b> we should really remove the need for a 'Search' activity and manage everything in another Fragment - so that's what we'll do.
 
 ~~~java
  fragment = AddFragment.newInstance();
