@@ -89,3 +89,4 @@ If it all get's a bit much for you :) here's the complete xml code but it's real
 
 The next thing we need to do is associate this layout with our existing <b>SearchFragment</b> and bind to the widgets such as the Spinner, the EditText etc.
 
+Even though our SearchFragment extends from CoffeeFragment, we can't use the standard CoffeeFragment layout so the first thing we need to do is bring in (and override) the <i>onCreateView()</i> method for our SearchFragment. 
