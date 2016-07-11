@@ -42,4 +42,5 @@
    * [Step 03](session05/lab/md/step03.md)
    * [Step 04](session05/lab/md/step04.md)
    * [Step 05](session05/lab/md/step05.md)
+   * [Step 06](session05/lab/md/step06.md)
    * [Solution](session05/lab/md/solution.md)
