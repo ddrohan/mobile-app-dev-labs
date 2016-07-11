@@ -87,29 +87,5 @@ If it all get's a bit much for you :) here's the complete xml code but it's real
 
 ~~~
 
-and just for completeness, you may have noticed that the title bar we're using for our 'Add' screen  still displays
+The next thing we need to do is associate this layout with our existing <b>SearchFragment</b> and bind to the widgets such as the Spinner, the EditText etc.
 
- ![](../img/lab504.png)
- 
- so add the following to your <b>AddFragment</b> (and fix the errors)
- 
- ~~~java
-  @Override
-    public void onResume() {
-        super.onResume();
-
-        titleBar = (TextView) getActivity().findViewById(R.id.recentAddedBarTextView);
-        titleBar.setText(R.string.addACoffeeLbl);
-    }
- ~~~
- 
- and run the app again to confirm you get the following
- 
- ![](../img/lab505.png)
-
-
-Now we can implement the logic behind the View to add a new coffee to our list of coffees.
-
-We already have all the code we need in our 'Add' activity so go ahead and see can you complete this step without referring to the supporting lecture material.
-
-And don't forget to remove the 'Add' activity (and associated layout) from the project, as we don't need them anymore.
