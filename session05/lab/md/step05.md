@@ -111,7 +111,7 @@ Can you explain why we need to bind to the 'coffeeList' ListView widget? (commen
 
 Now, 'wire up' a new instance of this fragment to the Search option on the Navigation Drawer, similar to how we did the 'Add' and 'View Favourites'.
 
-Run the app and confirm you get the following:
+Run the app and confirm you get the following after you choose the 'Search' option:
 
 ![](../img/lab507.png)
 
