@@ -115,4 +115,4 @@ Run the app and confirm you get the following:
 
 ![](../img/lab507.png)
 
-The next step is to bring in the logic so a user can actually search & filter Coffees (like CoffeeMate 3.0).
+You'll notice that the spinner and filter don't work - the next step is to bring in the logic so a user can actually search & filter Coffees (like CoffeeMate 3.0).
