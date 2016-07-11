@@ -8,7 +8,12 @@ There's actually not a lot of extra code to add with this refactoring, once agai
 For completness, add the following to the Fragment
 
 ~~~java
+@Override
+	public void onResume() {
+		super.onResume();
 
+		titleBar.setText(R.string.searchCoffeesLbl);
+	}
 ~~~
 
 When you're done, you should be able to Search & Filter as normal (as with the previous version) only this time it's all nice and contained in a Fragment, like so:
