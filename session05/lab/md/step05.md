@@ -101,7 +101,10 @@ Introduce the following to your SearchFragment fragment
 		return inflater.inflate(R.layout.fragment_search, container, false);
 	}
 
+~~~
+
 Now, 'wire up' a new instance of this fragment to the Search option on the Navigation Drawer, similar to how we did the 'Add' and 'View Favourites'.
 
+Run the app and confirm you get the following:
 
-~~~
+![](../img/lab507.png)
