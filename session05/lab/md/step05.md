@@ -98,10 +98,16 @@ Introduce the following to your SearchFragment fragment
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 							 Bundle savedInstanceState) {
 
-		return inflater.inflate(R.layout.fragment_search, container, false);
+		View v = inflater.inflate(R.layout.fragment_search, container, false);
+
+		listView = (ListView) v.findViewById(R.id.coffeeList); //Bind to the list on our Search layout
+		
+		return v;
 	}
 
 ~~~
+
+Can you explain why we need to bind to the 'coffeeList' ListView widget?
 
 Now, 'wire up' a new instance of this fragment to the Search option on the Navigation Drawer, similar to how we did the 'Add' and 'View Favourites'.
 
