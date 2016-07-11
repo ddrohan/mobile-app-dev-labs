@@ -107,7 +107,7 @@ Introduce the following to your SearchFragment fragment
 
 ~~~
 
-Can you explain why we need to bind to the 'coffeeList' ListView widget?
+Can you explain why we need to bind to the 'coffeeList' ListView widget? (comment out the line of code and run the app once you've completed the 'wiring up', and see does that give you any clues?).
 
 Now, 'wire up' a new instance of this fragment to the Search option on the Navigation Drawer, similar to how we did the 'Add' and 'View Favourites'.
 
