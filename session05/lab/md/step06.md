@@ -5,7 +5,7 @@ To get you started, you'll need to move everything from the <i>onCreate()</i> to
 
 There's actually not a lot of extra code to add with this refactoring, once again, demonstrating the benefits of using (and reusing) Fragments.
 
-For completness, add the following to the Fragment
+For completeness, add the following to the Fragment
 
 ~~~java
 @Override
@@ -18,3 +18,8 @@ For completness, add the following to the Fragment
 
 When you're done, you should be able to Search & Filter as normal (as with the previous version) only this time it's all nice and contained in a Fragment, like so:
 
+![](../img/coffeemate.5.png)
+
+and
+
+![](../img/coffeemate.6.png)
