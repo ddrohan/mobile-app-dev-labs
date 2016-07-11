@@ -10,6 +10,7 @@ We already have most of the layout we need in the 'Search' xml file so see can y
 ![](../img/lab506.png)
 
 If it all get's a bit much for you :) here's the complete xml code but it's really worth having a go yourself first, as it will help you develop your layout design skills.
+
 ~~~xml
  <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
