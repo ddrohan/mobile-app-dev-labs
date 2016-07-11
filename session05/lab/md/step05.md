@@ -89,4 +89,19 @@ If it all get's a bit much for you :) here's the complete xml code but it's real
 
 The next thing we need to do is associate this layout with our existing <b>SearchFragment</b> and bind to the widgets such as the Spinner, the EditText etc.
 
-Even though our SearchFragment extends from CoffeeFragment, we can't use the standard CoffeeFragment layout so the first thing we need to do is bring in (and override) the <i>onCreateView()</i> method for our SearchFragment. 
+Even though our SearchFragment extends from CoffeeFragment, we can't use the standard CoffeeFragment layout so the first thing we need to do is bring in (and override) the <i>onCreateView()</i> method for our SearchFragment.
+
+Introduce the following to your SearchFragment fragment
+
+~~~java
+@Override
+	public View onCreateView(LayoutInflater inflater, ViewGroup container,
+							 Bundle savedInstanceState) {
+
+		return inflater.inflate(R.layout.fragment_search, container, false);
+	}
+
+Now, 'wire up' a new instance of this fragment to the Search option on the Navigation Drawer, similar to how we did the 'Add' and 'View Favourites'.
+
+
+~~~
