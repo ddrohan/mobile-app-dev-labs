@@ -17,11 +17,11 @@ AND
 
 So first of all, go ahead and create the Fragment \(and it's associated layout\) but this time, make sure you choose to **Include interface Callbacks**, like so .
 
+![](/assets/lab509.png)
 
+Then, modify the boilerplate code so that the _**newInstance\(\)**_ method takes a 'Bundle' object \(called _coffeeBundle_\) as a parameter.
 
-Then, modify the boilerplate code so that the **_newInstance\(\)_** method takes a 'Bundle' object \(called _coffeeBundle_\) as a parameter.
-
-Now, our current _**onItemClick\(\)**_ method inside our CoffeeFragment, looks like this
+Now, our current **_onItemClick\(\)_** method inside our CoffeeFragment, looks like this
 
 ```
 @Override  public void onItemClick(AdapterView<?> parent, View view, int position, long id) 
