@@ -1,3 +1,4 @@
+
 # Summary
 
 * [Introduction](README.md)
@@ -43,4 +44,5 @@
    * [Step 04](session05/lab/md/step04.md)
    * [Step 05](session05/lab/md/step05.md)
    * [Step 06](session05/lab/md/step06.md)
+   * [Step 07](session05/lab/md/step07.md)
    * [Solution](session05/lab/md/solution.md)
