@@ -10,13 +10,14 @@ and
 * Pass the relevant Coffee Data from the 'Coffee List' \(managed within the **CoffeeFragment**\) to the **EditFragment**
 
 AND
+
 * Implement a callback interface from our Fragment to our Activity to handle the 'favourites star' toggle.
 
-**Note:** We could simply have our EditFragment implement the onClick\(\) Listener, but this is an opportunity to demonstrate how to communicate between a Fragment and an Activity.
- 
-So first of all, go ahead and create the Fragment \(and it's associated layout\) but this time, modify the boilerplate code so that the _**newInstance\(\)**_ method takes a 'Bundle' object \(called _coffeeBundle_\) as a parameter.
+**Note:** We could simply have our EditFragment implement an onClick Listener, but this is an opportunity to demonstrate how to communicate between a Fragment and an Activity.
 
-Now, our current **_onItemClick\(\)_** method inside our CoffeeFragment, looks like this
+So first of all, go ahead and create the Fragment \(and it's associated layout\) but this time, modify the boilerplate code so that the **_newInstance\(\)_** method takes a 'Bundle' object \(called _coffeeBundle_\) as a parameter.
+
+Now, our current _**onItemClick\(\)**_ method inside our CoffeeFragment, looks like this
 
 ```
 @Override  public void onItemClick(AdapterView<?> parent, View view, int position, long id) 
