@@ -25,7 +25,7 @@ getActivity().startActivity(goEdit);
 }
 ```
 
-so see if you can implement the necessary code to 'switch to' the EditFragment instead of launching the Edit activity.
+so see if you can implement the necessary code to 'switch to' the EditFragment instead of launching the Edit activity (We'll revist this code in Part 2 to complete the Edit feature).
 
 **Hint:** have a look at your **Home** activity and how we manage our Fragments.
 
@@ -212,4 +212,8 @@ Next, you need to update your layout, so again, have a go at that, but to help y
 
 </FrameLayout>
 ```
+
+Run you app and confirm you get a blank Edit Screen when you select a row in the coffee list, like so:
+
+![](/assets/lab508.png)
 
