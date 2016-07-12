@@ -6,6 +6,7 @@ This step is similar to our 'Add' Fragment implementation but there's a bit more
 * Recycle the 'Edit' Layout for use with our new Fragment \(similar to Add\)
 
 and
+
 * Pass the relevant Coffee Data from the 'Coffee List' \(managed within the **CoffeeFragment**\) to the **EditFragment**
 
-
+So first of all, go ahead and create the Fragment \(and it's associated layout\) but this time, modify the boilerplate code so that the _**newInstance\(\)**_ method takes a 'Bundle' object as a parameter.
