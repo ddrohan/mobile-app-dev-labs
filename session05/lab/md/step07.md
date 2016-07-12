@@ -19,9 +19,9 @@ So first of all, go ahead and create the Fragment \(and it's associated layout\)
 
 ![](/assets/lab509.png)
 
-Then, modify the boilerplate code so that the _**newInstance\(\)**_ method takes a 'Bundle' object \(called _coffeeBundle_\) as a parameter.
+Then, modify the boilerplate code so that the **_newInstance\(\)_** method takes a 'Bundle' object \(called _coffeeBundle_\) as a parameter.
 
-Now, our current **_onItemClick\(\)_** method inside our CoffeeFragment, looks like this
+Now, our current _**onItemClick\(\)**_ method inside our CoffeeFragment, looks like this
 
 ```
 @Override  public void onItemClick(AdapterView<?> parent, View view, int position, long id) 
@@ -226,4 +226,10 @@ Next, you need to update your layout, so again, have a go at that, but to help y
 Run you app and confirm you get a blank Edit Screen when you select a row in the coffee list, like so:
 
 ![](/assets/lab508.png)
+
+But you get an error instead??
+
+Can you try a very rudementary fix to get the app running? 
+
+
 

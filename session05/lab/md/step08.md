@@ -21,7 +21,5 @@ public void onItemClick(AdapterView<?> parent, View view, int position, long id)
 
 and your initial EditFragment looks something like this
 
-\`\`\`
 
-\`\`\`
 
