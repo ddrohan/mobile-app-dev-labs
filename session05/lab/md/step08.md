@@ -1,6 +1,16 @@
 # App Refactoring - Our 'Edit' Option \(Part 2\)
 
-This step involves recycling a lot of our existing code from our Add Activity but also implementing a callback interface, a lot of which is actually supplied for us via Android Studio when we create a Fragment.
+The problem with the previous step was the Main Activity \(in out case 'Home' must implement the **OnFragmentInteractionListener** interface \(for the callbacks\) so you can carry out a quick fix like so
+
+![](/assets/lab510.png)
+
+choosing to Implement methods.
+
+Run your app again just to make sure everything is working as expected.
+
+---
+
+Now, This step involves recycling a lot of our existing code from our Add Activity but also implementing a callback interface, a lot of which is actually supplied for us via Android Studio when we create a Fragment.
 
 First of all, ensure your CoffeeFragment's onItemClick\(\) looks something like this
 
@@ -20,6 +30,4 @@ public void onItemClick(AdapterView<?> parent, View view, int position, long id)
 ```
 
 and your initial EditFragment looks something like this
-
-
 
