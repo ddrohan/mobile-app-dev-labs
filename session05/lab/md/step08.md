@@ -6,7 +6,7 @@ The problem with the previous step was the Main Activity \(in out case 'Home' mu
 
 choosing to Implement methods.
 
-Run your app again just to make sure everything is working as expected.
+Run your app again just to make sure everything is working as expected. **OnFragmentInteractionListener **isn't really a suitable name for our needs, but we'll come back to that later.
 
 ---
 
