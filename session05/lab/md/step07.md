@@ -15,9 +15,13 @@ AND
 
 **Note:** We could simply have our EditFragment implement an onClick Listener, but this is an opportunity to demonstrate how to communicate between a Fragment and an Activity.
 
-So first of all, go ahead and create the Fragment \(and it's associated layout\) but this time, modify the boilerplate code so that the _**newInstance\(\)**_ method takes a 'Bundle' object \(called _coffeeBundle_\) as a parameter.
+So first of all, go ahead and create the Fragment \(and it's associated layout\) but this time, make sure you choose to **Include interface Callbacks**, like so .
 
-Now, our current **_onItemClick\(\)_** method inside our CoffeeFragment, looks like this
+
+
+Then, modify the boilerplate code so that the **_newInstance\(\)_** method takes a 'Bundle' object \(called _coffeeBundle_\) as a parameter.
+
+Now, our current _**onItemClick\(\)**_ method inside our CoffeeFragment, looks like this
 
 ```
 @Override  public void onItemClick(AdapterView<?> parent, View view, int position, long id) 
