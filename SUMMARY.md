@@ -50,6 +50,7 @@
   * [Step 07](session05/lab/md/step07.md)
   * [Step 08](session05/lab/md/step08.md)
   * [Step 09](session05/lab/md/step09.md)
+  * [Step 10](session05/lab/md/step10.md)
   * [Solution](session05/lab/md/solution.md)
 
 

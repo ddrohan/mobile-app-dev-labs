@@ -120,7 +120,7 @@ Now, we need to first of all, be able to display our coffee data on our Edit scr
 
 So revisit how it's implemented in the Edit Activity and how you can leverage that to get it to work in the EditFragment.
 
-**Hint:** You need to do something very similar to what you did with the **AddFragment** insofar as you need to refactor the _**onCreateView\(\)**_ method but also add the following to your \_**onCreate\(\) **\_method, to retrieve the correct coffee data before you display it.
+**Hint:** You need to do something very similar to what you did with the **AddFragment** insofar as you need to refactor the **_onCreateView\(\)_** method but also add the following to your **onCreate\(\) **method, to retrieve the correct coffee data _**before**_ you display it.
 
 ```
 @Override
