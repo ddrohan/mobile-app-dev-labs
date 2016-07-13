@@ -114,9 +114,9 @@ public class EditFragment extends Fragment {
 }
 ```
 
-Now, we need to first of all be able to display our coffee data on our Edit screen so see can you reuse what you already have in your existing activity and incorporate it in your new EditFragment.
+Now, we need to first of all, be able to display our coffee data on our Edit screen, so see can you reuse what you already have in your existing activity and incorporate it in your new EditFragment. What you're looking for is something like this \(if we selected 'Regular Joe' from our list\)
 
+![](/assets/coffeemate.7.png)
 
-
-
+So revisit how it's implemented in the Edit Activity and how you can leverage that to get it to work in the EditFragment.
 
