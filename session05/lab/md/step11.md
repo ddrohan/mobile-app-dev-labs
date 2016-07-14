@@ -29,5 +29,15 @@ public void onTerminate()
 } 
 ~~~ 
 
-Once you make this change (and save the file) you'll get a number of errors, which actually indicates which classes you need to now update and add the database calls (and remove the coffeeList calls). Each error requires only one line of code to be fixed, so have a go and updating each of the classes (and we'll have a look at the solution near the end of the Practical Lab). Once you fix all the errors, and run the app again, you should see your coffee list - but this time those coffees are stored in a database. And as a final check, if you call the <i>setupList</i> method of the <i>DBManager</i> reference in you CoffeeMateApp reference 'app' (replacing the existing setup method in 'Home') you should see the following list: ![](/assets/coffeemate.8.png) Well Done!
+Once you make this change (and save the file) you'll get a number of errors, which actually indicates which classes you need to now update and add the database calls (and remove the coffeeList calls). 
+
+Each error requires only one line of code to be fixed, so have a go and updating each of the classes (and we'll have a look at the solution near the end of the Practical Lab). 
+
+Once you fix all the errors, and run the app again, you should see your coffee list - but this time those coffees are stored in a database. 
+
+And as a final check, if you call the <i>setupList</i> method of the <i>DBManager</i> reference in you CoffeeMateApp reference 'app' (replacing the existing setup method in 'Home') you should see the following list: 
+
+
+
+Well Done!
 
