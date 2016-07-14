@@ -6,7 +6,7 @@ The problem with the previous step was the Main Activity \(in out case 'Home' mu
 
 choosing to Implement methods.
 
-Run your app again just to make sure everything is working as expected. **OnFragmentInteractionListener **isn't really a suitable name for our needs, but we'll come back to that later.
+Run your app again just to make sure everything is working as expected. **OnFragmentInteractionListener **isn't really of any use at the moment, but we'll come back to that later.
 
 ---
 
@@ -120,7 +120,7 @@ Now, we need to first of all, be able to display our coffee data on our Edit scr
 
 So revisit how it's implemented in the Edit Activity and how you can leverage that to get it to work in the EditFragment.
 
-**Hint:** You need to do something very similar to what you did with the **AddFragment** insofar as you need to refactor the **_onCreateView\(\)_** method but also add the following to your **onCreate\(\) **method, to retrieve the correct coffee data _**before**_ you display it.
+**Hint:** You need to do something very similar to what you did with the **AddFragment** insofar as you need to refactor the _**onCreateView\(\)**_ method but also add the following to your **onCreate\(\) **method, to retrieve the correct coffee data **_before_** you display it.
 
 ```
 @Override
