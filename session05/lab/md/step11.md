@@ -13,7 +13,7 @@ There are a number of classes you'll need to modify to add database support to y
 Our DBManager instance inside our Application Object
 
 ~~~java
-  public class CoffeeMateApp extends Application
+public class CoffeeMateApp extends Application
 {
   //public List <Coffee>  coffeeList = new ArrayList<Coffee>();
   public DBManager  dbManager = new DBManager(this);
@@ -42,6 +42,6 @@ Once you fix all the errors, and run the app again, you should see your coffee l
 
 And as a final check, if you call the <i>setupList</i> method of the <i>DBManager</i> reference in you CoffeeMateApp reference 'app' (replacing the existing setup method in 'Home') you should see the following list:
 
-![](../img/coffeemate.6.png)
+![](../img/coffeemate.8.png)
 
 Well Done!
