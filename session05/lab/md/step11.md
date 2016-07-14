@@ -42,6 +42,6 @@ Once you fix all the errors, and run the app again, you should see your coffee l
 
 And as a final check, if you call the <i>setupList</i> method of the <i>DBManager</i> reference in you CoffeeMateApp reference 'app' (replacing the existing setup method in 'Home') you should see the following list:
 
-![](/assets/coffeemate.7.png)
+![](/assets/coffeemate.8.png)
 
 Well Done!
