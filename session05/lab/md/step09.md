@@ -53,5 +53,7 @@ public void onDetach()
 }
 ```
 
+Next, bring in the existing methods from the Edit activity \('toggle' and 'update'\) and fix any errors.
+
 
 
