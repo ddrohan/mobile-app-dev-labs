@@ -83,3 +83,31 @@ public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle sa
 }
 ```
 
+```
+public void update(View v) {    
+        if (mListener != null) {        
+                String coffeeName = name.getText().toString();        
+                String coffeeShop = shop.getText().toString();        
+                String coffeePriceStr = price.getText().toString();        
+                double ratingValue = ratingBar.getRating();        
+
+                double coffeePrice;        
+                        try {            
+                        coffeePrice = Double.parseDouble(coffeePriceStr);        
+                        } catch (NumberFormatException e) 
+                        {            coffeePrice = 0.0;        }        
+
+                if ((coffeeName.length() > 0) && (coffeeShop.length() > 0) && (coffeePriceStr.length() > 0)) {            
+                        aCoffee.name = coffeeName;            
+                        aCoffee.shop = coffeeShop;            
+                        aCoffee.price = coffeePrice;            
+                        aCoffee.rating = ratingValue;           
+                     }        
+                } else            
+                Toast.makeText(getActivity(), "You must Enter Something for Name and Shop", Toast.LENGTH_SHORT).show();    
+                }
+        }
+```
+
+
+
