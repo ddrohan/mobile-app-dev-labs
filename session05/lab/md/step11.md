@@ -1,36 +1,6 @@
 #Adding Database Support
 
-Before we complete this step, here's the code you need for the previous step.
-
-~~~java
-@Override
-  public void onClick(View arg0) {
-
-    CharSequence email = ((TextView) findViewById(R.id.loginEmail))
-        .getText();
-    CharSequence password = ((TextView) findViewById(R.id.loginPassword))
-        .getText();
-
-    if (email.length() <= 0 || password.length() <= 0)
-      Toast.makeText(this, "You must enter an email & password",
-          Toast.LENGTH_SHORT).show();
-    else if (!email.toString().matches("d")
-        || !password.toString().matches("d"))
-      Toast.makeText(this, "Unable to validate your email & password",
-          Toast.LENGTH_SHORT).show();
-    else if (!mIsBackButtonPressed) {
-      // Validate User with Server Here
-
-      // Update logged in preferences
-      SharedPreferences.Editor editor = settings.edit();
-      editor.putBoolean("loggedin", true);
-      editor.commit();
-      // start the home screen if the back button wasn't pressed already
-      startHomeScreen();
-      this.finish(); // destroy the Login Activity
-    }
-  }
-~~~
+Before we complete this step, there's a few classes you need to import to help you along.
 
 Once you import the necessary Database classes, this step is relatively straight forward - all you have to do is replace the method calls that manages the <b><i>coffeeList</i></b> with the respective <b><i>dbManager</i></b> calls.
 
