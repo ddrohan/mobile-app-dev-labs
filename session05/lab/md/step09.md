@@ -120,7 +120,7 @@ public interface OnFragmentInteractionListener {
 
 And use the Android Studio Tools to implement these new methods back in our 'Home' activity \(and fix any residual errors\).
 
-Here's the implementation for the 'toggle' 
+Here's the implementation for the 'toggle'
 
 ```
 @Override
@@ -132,9 +132,5 @@ public void toggle(View v) {
     }
 ```
 
-so have a go at implementing the 'update'.
-
-
-
-
+so have a go at implementing the 'update'. 
 
