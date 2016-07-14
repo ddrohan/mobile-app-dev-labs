@@ -109,5 +109,32 @@ public void update(View v) {
         }
 ```
 
+The last thing we need to do is refactor our Listener interface to reflect the events we want to handle so replace the existing interface with this one
+
+```
+public interface OnFragmentInteractionListener {    
+    void toggle(View v);    
+    void update(View v);
+}
+```
+
+And use the Android Studio Tools to implement these new methods back in our 'Home' activity \(and fix any residual errors\).
+
+Here's the implementation for the 'toggle' 
+
+```
+@Override
+public void toggle(View v) {    
+    EditFragment editFrag = (EditFragment) getFragmentManager().findFragmentById(R.id.homeFrame);    
+        if (editFrag != null) {        
+                editFrag.toggle(v);    
+        }
+    }
+```
+
+so have a go at implementing the 'update'.
+
+
+
 
 
