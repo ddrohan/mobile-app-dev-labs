@@ -55,5 +55,7 @@ public void onDetach()
 
 Next, bring in the existing methods from the Edit activity \('toggle' and 'update'\) and fix any errors.
 
+Seeing as we need to bind to the widgets both for displaying and updating it's probably best to use class-wide widget variables \(like we did for our 'Add'\) so before you proceed, make sure your **onCreateView\(\)** and **update\(\)** methods look something like this
+
 
 
