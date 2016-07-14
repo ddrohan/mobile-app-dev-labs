@@ -11,3 +11,5 @@ if (getFragmentManager().getBackStackEntryCount() > 0) {
          }
 ```
 
+The final step in this lab is to add database support, which we'll do next.
+
