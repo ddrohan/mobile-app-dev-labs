@@ -38,8 +38,10 @@ Once you make this change (and save the file) you'll get a number of errors, whi
 
 Each error requires only one line of code to be fixed, so have a go and updating each of the classes (and we'll have a look at the solution near the end of the Practical Lab).
 
-Once you fix all the errors, and run the app again, (and successfully login!) you should see your coffee list - but this time those coffees are stored in a database.
+Once you fix all the errors, and run the app again, you should see your coffee list - but this time those coffees are stored in a database.
 
 And as a final check, if you call the <i>setupList</i> method of the <i>DBManager</i> reference in you CoffeeMateApp reference 'app' (replacing the existing setup method in 'Home') you should see the following list:
 
-![](../img/lab505.png)
+![](../img/coffeemate.6.png)
+
+Well Done!
