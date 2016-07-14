@@ -57,3 +57,29 @@ Next, bring in the existing methods from the Edit activity \('toggle' and 'updat
 
 **Note:** Seeing as we need to bind to the widgets both for displaying and updating it's probably best to use class-wide widget variables \(like we did for our 'Add'\) so before you proceed, make sure your **onCreateView\(\)** and **update\(\)** methods look something like this
 
+```java
+@Override
+public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) { 
+
+    View v = inflater.inflate(R.layout.fragment_edit, container, false); 
+
+    ((TextView)v.findViewById(R.id.coffeeNameTextView)).setText(aCoffee.name); 
+    ((TextView)v.findViewById(R.id.coffeeShopTextView)).setText(aCoffee.shop); 
+
+    name = (EditText)v.findViewById(R.id.nameEditText); name.setText(aCoffee.name); 
+    shop = (EditText)v.findViewById(R.id.shopEditText); shop.setText(aCoffee.shop); 
+    price = (EditText)v.findViewById(R.id.priceEditText); price.setText(""+aCoffee.price); 
+    ratingBar = (RatingBar) v.findViewById(R.id.coffeeRatingBar); ratingBar.setRating((float)aCoffee.rating); 
+
+    favouriteImage = (ImageView) v.findViewById(R.id.favouriteImageView); 
+        if (aCoffee.favourite == true) { 
+            favouriteImage.setImageResource(R.drawable.ic_favourite_on); 
+            isFavourite = true; 
+        } else { 
+            favouriteImage.setImageResource(R.drawable.ic_favourite_off); 
+            isFavourite = false; 
+        } 
+    return v;
+}
+```
+
