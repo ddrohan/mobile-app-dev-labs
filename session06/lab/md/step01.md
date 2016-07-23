@@ -1,4 +1,4 @@
-#Setup - Starter Code
+#Setup - Starter Code & Configuring Volley
 
 As this lab builds directly on the previous lab, but requires a number of helper classes you can download the solution for the lab here - [CoffeeMate.5.0](../archives/CoffeeMate.5.0.Starter.zip).
 
