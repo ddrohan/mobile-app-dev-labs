@@ -6,4 +6,4 @@ In this Lab, you will continue to refactor our CoffeeMate Case Study, this versi
 
 AND
 
-- sign into your app (and the webApp) with your <b>Google Account</b>
+- sign into your Mobie App (and the Web App) with your <b>Google Account</b>
