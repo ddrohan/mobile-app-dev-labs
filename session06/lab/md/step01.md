@@ -14,5 +14,22 @@ Once you import the Starter Code, you'll notice a number of errors, so to fix th
 - clone the project (via git)
 
 ~~~java
+git clone https://android.googlesource.com/platform/frameworks/volley 
+~~~
+
+or download my own volley archive here - [volley.zip](../archives/volley.zip).
+
+Eitherway, you then need to 
 
 ~~~
+File -> New Module, choose Import Existing Project
+~~~
+and Add the following dependency to your 'build.gradle
+
+~~~
+compile project(':volley')
+~~~
+
+Clean the Project and the errors should be fixed, and if you run the app, you should get something like the following (depending on what's on the server)
+
+ ![](../img/lab601.png)
