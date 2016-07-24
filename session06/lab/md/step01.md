@@ -35,4 +35,4 @@ Add the necessary imports, clean the Project and the errors should be fixed, and
 
  ![](../img/lab0601.png)
 
-The remainder of this lab involves
+The remainder of this lab involves integrating <b>Google+ SignIn</b> and using <b>Volley</b> to interact with the Web App.
