@@ -24,10 +24,11 @@ Eitherway, you then need to
 ~~~
 File -> New Module, choose Import Existing Project
 ~~~
-and Add the following dependency to your 'build.gradle
+and Add the following dependencies to your 'build.gradle
 
 ~~~
 compile project(':volley')
+compile 'com.google.code.gson:gson:2.4' // for Googles Gson JSON Parser
 ~~~
 
 Clean the Project and the errors should be fixed, and if you run the app, you should get something like the following (depending on what's on the server)
