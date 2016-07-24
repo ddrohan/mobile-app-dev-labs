@@ -35,4 +35,4 @@ Add the necessary imports, clean the Project and the errors should be fixed, and
 
  ![](../img/lab0601.png)
 
-The remainder of this lab 
+The remainder of this lab involves
