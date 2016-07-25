@@ -1,7 +1,7 @@
-#Google+ Sign In 
+#Setting Up Google+ Sign In 
 
 
-As previously mentioned, this lab is all about understanding how <b>CoffeeMate.5.0</b> 
+As previously mentioned, we now want our CoffeeMate App to interact with a sister Web App,  
 
 ![](../img/bp01.png)
 
