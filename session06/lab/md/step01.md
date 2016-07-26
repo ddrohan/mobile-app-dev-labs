@@ -4,7 +4,7 @@ As this lab builds directly on the previous lab, but requires a number of helper
 
 In this lab, you are required to do the following:
 
-- Refactor <b>CoffeeMate.4.0</b> replacing all Database calls with the Web Service calls (one of which is done already). This particular lab is concerned with initially using <b>Volley</b> to make our API calls and ultimately intrgrating <b>Google+ SignIn</b> to allows us to securely login to our sister Web App - <a href="http://coffeemateweb.herokuapp.com">CoffeeMateWeb</a> and still offer the same functionality on the App.
+- Refactor <b>CoffeeMate.4.0</b> replacing all Database calls with the Web Service calls (one of which is done already). This particular lab is concerned with initially using <b>Volley</b> to make our API calls and ultimately intrgrating <b>Google+ Sign-in</b> to allows us to securely login to our sister Web App - <a href="http://coffeemateweb.herokuapp.com">CoffeeMateWeb</a> and still offer the same functionality on the App.
 
 I would also like to bring to your attention our <b>Coffee</b> class as it has been refactored (simplified) for use with the Web Service, we will be using this version of the model in subsequent Labs.
 
@@ -37,4 +37,4 @@ Add the necessary imports, clean the Project and the errors should be fixed, and
 
 <i><b>I would strongly recommend spending some time familiarising yourself with the source code for this starter project - especially the API Calls and how we utilise a 'Callback Interface'.</b></i>
 
-The remainder of this lab involves integrating <b>Google+ SignIn</b> and using <b>Volley</b> to interact with the Web App.
+The remainder of this lab involves integrating <b>Google+ Sign-in</b> and using <b>Volley</b> to interact with the Web App.
