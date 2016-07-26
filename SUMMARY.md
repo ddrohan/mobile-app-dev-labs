@@ -64,4 +64,5 @@
  * [Objectives](session06/lab/md/objectives.md)
  * [Step 01](session06/lab/md/step01.md)
  * [Step 02](session06/lab/md/step02.md)
+ * [Step 03](session06/lab/md/step03.md)
  * [Solution](session06/lab/md/solution.md)
