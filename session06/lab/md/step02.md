@@ -32,7 +32,20 @@ and we can display the users Google Profile pic, and email in the Navigation Dra
 
 <hr>
 
-Before you can start integrating Google+ features in your own app, you must create a Google Developers Console project and initialize the <b>GoogleApiClient</b> within your app.
+Before you can start integrating Google+ features in your own app, you must create a <b><i>Google Developers Console project</i></b> and initialize the <b>GoogleApiClient</b> within your app.
+
+###Ste p 1: Add Google Sign-In
+
+Before you begin using Google+ in your Android app, follow all of the steps to <a href="https://developers.google.com/identity/sign-in/android/start-integrating">Start Integrating Google Sign-In into your Android App</a>.
+
+Step 2: Enable the Google+ API
+If you followed the steps above to add Google Sign-In to your app, you have already created a project in Google Developers Console. Now enable the Google+ API for that project to access Google+ features.
+Go to the Google Developers Console APIs library .
+From the project drop-down, select the project you previously created.
+In the list of Google APIs, search for the Google+ API service.
+Select Google+ API from the results list.
+Select Enable API.
+When the process completes, Google+ API appears in the list of enabled APIs. To access, select API Manager on the left sidebar menu, then select the Enabled APIs tab.
 
 
 
