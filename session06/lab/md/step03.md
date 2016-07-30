@@ -1,6 +1,6 @@
 # Adding a google+ Sign-in Screen
 
-There's quite a lot of code \(relatively speaking\) to get this off the ground, so we'll use this step as more of a 'configuration' step, and hopefully once you've completed this, you'll be able to _**'Go Green'**_ on your own app :-\) \(Reduce,Reuse,Recycle my code\).
+There's quite a lot of code \(relatively speaking\) to get this off the ground, so we'll use this step as more of a 'configuration' step, and hopefully once you've completed this, you'll be able to **_'Go Green'_** on your own app :-\) \(Reduce,Reuse,Recycle my code\).
 
 The first thing you need to do is introduce the following variables into your **Base** class
 
@@ -44,8 +44,8 @@ public void logout(MenuItem item)
 
 Then, bring in the following resources into your own CoffeeMate project \(and store in the relevant folders\) and fix\/import any errors. You may need to revisit the Nav Drawer layout to rename some widgets.
 
-* **Login** Activity \(in package _**ie.cm.activities**_\)
-* **activity\_login** Layout \(in _**res\/layout**_\)
+* **Login** Activity \(in package **_ie.cm.activities_**\)
+* **activity\_login** Layout \(in **_res\/layout_**\)
 
 Also, just confirm that you have the following permissions in your manifest file
 
@@ -63,4 +63,32 @@ Next, bring in a 'Logout' Option in your Menu, like so
     app:showAsAction="never"    
     android:onClick="logout"/>
 ```
+
+Now, introduce the following variable in your **Home** Activity
+
+```
+private ImageView googlePhoto;
+```
+
+and the following code in your _**onCreate\(\)**_ method **BEFORE** your fragment transaction
+
+```
+//SetUp GooglePhoto and Email for Drawer here
+googlePhoto = (ImageView)navigationView.getHeaderView(0).findViewById(R.id.googlephoto);
+CoffeeApi.getGooglePhoto(Base.googlePhotoURL,googlePhoto);
+
+TextView googleName = (TextView)navigationView.getHeaderView(0).findViewById(R.id.googlename);
+googleName.setText(Base.googleName);
+
+TextView googleMail = (TextView)navigationView.getHeaderView(0).findViewById(R.id.googlemail);
+googleMail.setText(Base.googleMail);
+```
+
+You'll get an error on
+
+
+
+
+
+
 
