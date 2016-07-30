@@ -89,4 +89,3 @@ You'll get an error on
 CoffeeApi.getGooglePhoto(Base.googlePhotoURL,googlePhoto);
 ```
 so add the following method to your <b>CoffeeApi</b> class
-
