@@ -108,3 +108,7 @@ public static void getGooglePhoto(String url,final ImageView googlePhoto)
     // Add the request to the queue 
     Base.app.add(imgRequest);
 ```
+
+There's one other small step, but a vital one, to get your Login Screen loading after your splash Screen - and I'll leave that up to you.
+
+Once you get the app running and a user Signing in - you'll see that the list can be downloaded as before, and the users Google credentials are dispalyed in the Nav Drawer - but nothing else works properly - the rest of the lab involves refactoring our code to make API requests on the Server to Delete/Update etc.
