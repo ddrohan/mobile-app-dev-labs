@@ -89,12 +89,22 @@ You'll get an error on
 CoffeeApi.getGooglePhoto(Base.googlePhotoURL,googlePhoto);
 ```
 so add the following method to your <b>CoffeeApi</b> class
-
+```
 public static void getGooglePhoto(String url,final ImageView googlePhoto) 
     { 
     ImageRequest imgRequest = new ImageRequest(url, 
         new Response.Listener<Bitmap>() { 
         @Override public void onResponse(Bitmap response) { 
-                Base.googlePhoto = response;                 googlePhoto.setImageBitmap(Base.googlePhoto); 
-    } }, 0, 0, ImageView.ScaleType.FIT_XY, Bitmap.Config.ARGB_8888, new Response.ErrorListener() { @Override public void onErrorResponse(VolleyError error) { System.out.println("Something went wrong!"); error.printStackTrace(); } });// Add the request to the queue Base.app.add(imgRequest);
+                Base.googlePhoto = response;                         
+                googlePhoto.setImageBitmap(Base.googlePhoto); 
+            } }, 0, 0, ImageView.ScaleType.FIT_XY, Bitmap.Config.ARGB_8888, 
+        
+        new Response.ErrorListener() { 
+            @Override public void onErrorResponse(VolleyError error) {             
+                    System.out.println("Something went wrong!"); 
+                    error.printStackTrace(); 
+                } 
+        });
+    // Add the request to the queue 
+    Base.app.add(imgRequest);
 ```
