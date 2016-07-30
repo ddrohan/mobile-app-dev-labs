@@ -61,8 +61,11 @@
 
 * [Lab 06: CoffeeMate 5.0](lab06_md.md)
 
- * [Objectives](session06/lab/md/objectives.md)
- * [Step 01](session06/lab/md/step01.md)
- * [Step 02](session06/lab/md/step02.md)
- * [Step 03](session06/lab/md/step03.md)
- * [Solution](session06/lab/md/solution.md)
+  * [Objectives](session06/lab/md/objectives.md)
+  * [Step 01](session06/lab/md/step01.md)
+  * [Step 02](session06/lab/md/step02.md)
+  * [Step 03](session06/lab/md/step03.md)
+  * [Step 04](session06/lab/md/step04.md)
+  * [Solution](session06/lab/md/solution.md)
+
+
