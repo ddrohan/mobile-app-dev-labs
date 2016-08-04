@@ -42,7 +42,7 @@ public void logout(MenuItem item)
     }
 ```
 
-Then, bring in the following resources into your own CoffeeMate project \(and store in the relevant folders\) and fix\/import any errors. You may need to revisit the Nav Drawer layout to rename some widgets.
+Then, bring in the following resources into your own CoffeeMate project \(and store in the relevant folders\) and fix/import any errors. You may need to revisit the Nav Drawer layout to rename some widgets.
 
 * **Login** Activity \(in package **_ie.cm.activities_**\)
 * **activity\_login** Layout \(in **_res\/layout_**\)
