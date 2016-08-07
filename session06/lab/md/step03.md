@@ -1,4 +1,4 @@
-# Adding a google+ Sign-in Screen
+# Adding a Google+ Sign-in Screen
 
 There's quite a lot of code \(relatively speaking\) to get this off the ground, so we'll use this step as more of a 'configuration' step, and hopefully once you've completed this, you'll be able to **_'Go Green'_** on your own app :-\) \(Reduce,Reuse,Recycle my code\).
 
