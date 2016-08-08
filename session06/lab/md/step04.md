@@ -12,3 +12,8 @@ CoffeeApi.get("/coffees/" + Base.googleToken);
 so now when we run the app we only see the current users coffees - here's mine!
 
 
+![](/session06/lab/img/lab0609.png)
+
+and
+
+![](/session06/lab/img/lab0610.png)
