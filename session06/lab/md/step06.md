@@ -1,4 +1,4 @@
-# Google+ Integration - Deleting a Coffee
+# Google+ Integration - Updating a Coffee
 
 
 
