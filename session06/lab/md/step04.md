@@ -1,4 +1,4 @@
-# Google+ Integration - Retriving 'My Coffees'
+# Google+ Integration - Retrieving 'My Coffees'
 
 
 
