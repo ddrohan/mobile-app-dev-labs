@@ -18,4 +18,4 @@ and
 
 ![](/session06/lab/img/lab0610.png)
 
-You can confirm this by visiting [](http://coffeemateweb.herokuapp.com) and sign in with your google+ details.
+You can confirm this by visiting the [webapp](http://coffeemateweb.herokuapp.com) and sign in with your google+ details.
