@@ -1,4 +1,4 @@
-# Google+ Integration - Adding a Coffee
+# Google+ Integration - Retriving 'My Coffees'
 
 
 
