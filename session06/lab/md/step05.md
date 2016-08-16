@@ -42,7 +42,13 @@ public static void post(String url,Coffee aCoffee) {
     Base.app.add(gsonRequest);
 }
 ```
-Fix any import errors you have and take some time to investigate how this method achieves our goal. You can always refer to the Lecture material for some more detail if necessary.
+Fix any import errors you have and take some time to investigate how this method achieves our goal of
+
+- accepting a coffee object as a parameter
+- converting this object into a JSON String (using Gson)
+- POSTing this JSON String to the server
+
+You can always refer to the Lecture material for some more detail if necessary.
 
 The next thing we need to do is refactor our **Add Fragment** and integrate our APi class so open up your AddFragment.java and have a go at implementing what we need.
 
