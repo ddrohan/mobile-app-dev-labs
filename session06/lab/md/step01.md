@@ -31,7 +31,7 @@ compile project(':volley')
 compile 'com.google.code.gson:gson:2.4' // for Googles Gson JSON Parser
 ~~~
 
-Add the necessary imports, clean the Project and the errors should be fixed, and if you run the app, you should get something like the following (depending on what's on the server)
+Add the necessary imports, clean the Project and the errors should be fixed, and if you run the app, you should get something like the following (depending on what's on the server at the time of making the api request)
 
  ![](../img/lab0601.png)
 
