@@ -9,7 +9,7 @@ This is actually a very simple step, all we need to do is modify our APi call an
 CoffeeApi.get("/coffees/" + Base.googleToken);
 ```
 
-so now when we run the app we only see the current users coffees - here's mine!
+so now when we run the app we only see the current users coffees - here's mine (at the time of the request)
 
 
 ![](/session06/lab/img/lab0609.png)
