@@ -8,5 +8,6 @@ CoffeeApi.post("/coffees/" + Base.googleToken,c);
 ```
 
 Unfortunately, this step isn't as simple and straightforward as the last step, in that we need to 
-- display the coffee details on the Edit Screen
-- 
+- display the coffee details (that the user has selected) on the Edit Screen via a **GET** request
+- send a **PUT** request to update our coffee on the server
+- return the user to the screen they were on before they chose to edit their coffee
