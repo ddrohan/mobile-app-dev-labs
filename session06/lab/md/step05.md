@@ -50,7 +50,7 @@ Fix any import errors you have and take some time to investigate how this method
 
 You can always ask the Lecturer for some more detail if necessary.
 
-The next thing we need to do is refactor our **Add Fragment** and integrate our APi class so open up your AddFragment.java and have a go at implementing what we need.
+The next thing we need to do is refactor our **Add Fragment** and integrate our APi class so open up your _AddFragment.java_ and have a go at implementing what we need.
 
 There's actually verry little to this so if you've added the necessary code correctly, you should be able to add a coffee in the same way as in **CoffeeMate.4.0** but this time, the coffee is added to the list of your coffees on the server **NOT** on the device (via the database).
 
