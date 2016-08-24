@@ -1,7 +1,7 @@
 # Google+ Integration - Updating a Coffee
 
 
-As promised, here's code necessary for initially retrieving a coffee from the server and displaying it on the Edit Screen
+As promised, here's the code necessary for initially retrieving a coffee from the server and displaying it on the Edit Screen
 
 ```
 @Override
