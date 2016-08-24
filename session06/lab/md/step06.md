@@ -505,5 +505,11 @@ private OnFragmentInteractionListener mListener;
 
 ```
 
+and your onCreate() method now should look like this
+
+```
+@Overridepublic void onCreate(Bundle savedInstanceState) { super.onCreate(savedInstanceState); if(getArguments() != null) { coffeeID = getArguments().getString("coffeeID"); }}
+
+```
 
 
