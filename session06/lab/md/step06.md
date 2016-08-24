@@ -457,10 +457,10 @@ public class CoffeeFragment  extends Fragment implements AdapterView.OnItemClick
   @Override
   public void setList(List list) {
     Base.app.coffeeList = list;
-    updateUI(this);
+    updateUI();
   }
 
-  public void updateUI(Fragment fragment) {
+  public void updateUI() {
     //System.out.println("CALLING updateUI in CoffeeFragment");
     titleBar = (TextView)getActivity().findViewById(R.id.recentAddedBarTextView);
     titleBar.setText(R.string.recentlyViewedLbl);
