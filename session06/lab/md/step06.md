@@ -531,4 +531,4 @@ and if the user selects "Regular Joe"
 
 ![](/assets/coffeemate.7.png)
 
-You're probably not seeing anything (or maybe your app even crashed?) and this is (probably) becuase you haven't implemented the interface methods correctly (or at all!) and you haven't allowed for updating the UI with the coffee details AFTER the individual coffee details have been retrieved.
+You're probably not seeing anything (or maybe your app even crashed?) and this is (probably) because you haven't implemented the interface methods correctly (or at all!) and you haven't allowed for updating the UI with the coffee details AFTER the individual coffee details have been retrieved.
