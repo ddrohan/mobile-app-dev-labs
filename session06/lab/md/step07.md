@@ -42,3 +42,5 @@ CoffeeApi.put("/coffees/" + Base.googleToken +"/" + aCoffee._id, aCoffee);
 ```
 
 but the existing _update()_ method needs a small bit of refactoring so see if you can make the necessary changes to get everything working.
+
+Once that's done you can move onto the next step - Deleting a Coffee.
