@@ -1,4 +1,9 @@
-# Google+ Integration - Deleting a Coffee
+# Google+ Integration - Updating a Coffee
 
 
-There's quite a lot of code \(relatively speaking\) to get this off the ground, so we'll use th
+As promised, here's code necessary for initially retrieving a coffee from the server and displaying it on the Edit Screen
+
+```
+@Overridepublic void setList(List list) { Base.app.coffeeList = list;}@Overridepublic void setCoffee(Coffee c) { this.aCoffee = c; updateUI();}public void updateUI() { titleName.setText(aCoffee.name); titleShop.setText(aCoffee.shop); name.setText(aCoffee.name); shop.setText(aCoffee.shop); price.setText(""+aCoffee.price); ratingBar.setRating((float)aCoffee.rating); if (aCoffee.favourite == true) { favouriteImage.setImageResource(R.drawable.ic_favourite_on); isFavourite = true; } else { favouriteImage.setImageResource(R.drawable.ic_favourite_off); isFavourite = false; }}
+
+```
