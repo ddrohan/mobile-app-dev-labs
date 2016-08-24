@@ -505,7 +505,7 @@ private OnFragmentInteractionListener mListener;
 
 ```
 
-and your onCreate() method now should look like this
+and your _onCreate()_ method now should look like this
 
 ```
 @Override
@@ -518,6 +518,6 @@ public void onCreate(Bundle savedInstanceState) {
 
 ```
 
-As we need to reuse the widgets on our layout we need to refactor our onCreateView, and using the variables you've just declared have a go at a revised version of the method, where you specifically bind to each widget on the layout (not just reference it).
+As we need to reuse the widgets on our layout we need to refactor our _onCreateView()_, and using the variables you've just declared have a go at a revised version of the method, where you specifically bind to each widget on the layout (not just reference it).
 
-
+Now, using the **_coffeeID_** from your _onCreate()_ (above) see can you code correctly the APi call to retrieve a single coffee from the server?
