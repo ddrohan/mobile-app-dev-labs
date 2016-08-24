@@ -33,4 +33,12 @@ public void updateUI() {
             }
     }
 ```
+Run your app again to confirm everything is as expected.
 
+The last part of updating a coffee, is just that - **PUT**ing our data back on the server and there's actually not too much to this. To get you started, here's the APi call you'll need to make, 
+
+```
+CoffeeApi.put("/coffees/" + Base.googleToken +"/" + aCoffee._id, aCoffee);
+```
+
+but the existing _update()_ method needs a small bit of refactoring so see if you can make the necessary changes to get everything working.
