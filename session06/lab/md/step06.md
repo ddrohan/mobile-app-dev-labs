@@ -522,6 +522,8 @@ As we need to reuse the widgets on our layout we need to refactor our _onCreateV
 
 Now, using the **_coffeeID_** from your _onCreate()_ (above) see can you code correctly the APi call to retrieve a single coffee from the server? (All you need to do is append the coffee id to the call made to get all coffees).
 
+Before you get to actually update the coffee on the server, it's probably worth testing your app at this point to see if everything is working correctly, so run your app and confirm you get to see the coffee details on the Edit Screen once the user has selected a particular coffee to edit, like so
+
 
 
 
