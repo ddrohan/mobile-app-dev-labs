@@ -518,4 +518,6 @@ public void onCreate(Bundle savedInstanceState) {
 
 ```
 
+As we need to reuse the widgets on our layout we need to refactor our onCreateView, and using the variables you've just declared have a go at a revised version of the method, where you specifically bind to each widget on the layout (not just reference it).
+
 
