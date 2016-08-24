@@ -525,5 +525,9 @@ Now, using the **_coffeeID_** from your _onCreate()_ (above) see can you code co
 Before you get to actually update the coffee on the server, it's probably worth testing your app at this point to see if everything is working correctly, so run your app and confirm you get to see the coffee details on the Edit Screen once the user has selected a particular coffee to edit, like so
 
 
+![](/session05/lab/img/coffeemate.2.png) 
 
+and if the user selects "Regular Joe"
+
+![](/assets/coffeemate.7.png)
 
