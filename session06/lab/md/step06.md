@@ -488,5 +488,7 @@ public class CoffeeFragment  extends Fragment implements AdapterView.OnItemClick
 
 **I strongly recommend that you take some time and review this class and compare it to your previous class to understand the changes that have been made, particularly the introduction of the _SwipeRefreshLayout_ and the refactoring of the _onItemClick()_ method**.
 
-Now, open your EditFragment
+Now, open your **EditFragment** and ensure it implements our **VolleyListener** interface (and fix any errors).
+
+
 
