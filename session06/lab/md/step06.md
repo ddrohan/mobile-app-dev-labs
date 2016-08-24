@@ -423,7 +423,7 @@ public class CoffeeFragment  extends Fragment implements AdapterView.OnItemClick
     {
       public void onClick(DialogInterface dialog, int id)
       {
-        CoffeeApi.delete("/coffees/" + Base.googleToken +"/" + coffee._id);
+      
         //Base.app.coffeeList.remove(coffee); // remove from our list
         listAdapter.coffeeList.remove(coffee); // update adapters data
         listAdapter.notifyDataSetChanged(); // refresh adapter
