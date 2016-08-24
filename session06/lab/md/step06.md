@@ -491,7 +491,17 @@ public class CoffeeFragment  extends Fragment implements AdapterView.OnItemClick
 Now, open your **EditFragment** and ensure it implements our **VolleyListener** interface (and fix any errors). Then ensure your variable instances matches the following
 
 ```
-TextView titleBar,titleName,titleShop;Coffee aCoffee;Boolean isFavourite;EditText name, shop, price;RatingBar ratingBar;ImageView favouriteImage;String coffeeID;private OnFragmentInteractionListener mListener;
+TextView titleBar,titleName,titleShop;
+Coffee aCoffee;
+Boolean isFavourite;
+
+EditText name, shop, price;
+RatingBar ratingBar;
+ImageView favouriteImage;
+
+String coffeeID;
+
+private OnFragmentInteractionListener mListener;
 
 ```
 
