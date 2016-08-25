@@ -21,4 +21,9 @@ Now, because we introduced a **SwipeRefreshLayout**, we need to make some modifi
 
 </android.support.v4.widget.SwipeRefreshLayout>
 ```
-and in your Fragment you bind to  and set it
+and in your Fragment you bind to the **SwipeRefreshLayout** and set it like so
+
+```
+mSwipeRefreshLayout = (SwipeRefreshLayout) v.findViewById(R.id.coffee_swipe_refresh_layout);
+setSwipeRefreshLayout();
+```
