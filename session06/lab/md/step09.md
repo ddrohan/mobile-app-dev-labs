@@ -27,3 +27,5 @@ and in your Fragment you bind to the **SwipeRefreshLayout** and set it like so
 mSwipeRefreshLayout = (SwipeRefreshLayout) v.findViewById(R.id.coffee_swipe_refresh_layout);
 setSwipeRefreshLayout();
 ```
+
+Run your app once again and make a few changes on the server and test out the swipe refresh to confirm you've completed this lab successfully - Well Done!
