@@ -33,7 +33,10 @@ Then, go ahead and create a new **Empty Activity** but name the Layout **_fragme
 now add the following to the layout
 
 ```
-<fragment android:name="com.google.android.gms.maps.MapFragment" android:id="@+id/map" android:layout_width="match_parent" android:layout_height="match_parent"/>
+<fragment android:name="com.google.android.gms.maps.MapFragment" 
+        android:id="@+id/map" 
+        android:layout_width="match_parent" 
+        android:layout_height="match_parent"/>
 
 ```
 
