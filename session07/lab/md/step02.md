@@ -40,4 +40,9 @@ now add the following to the layout
 
 ```
 
+Finally, (for this step) add the following to your Home Activity, to temporarily handle launching our new Map activity, if the user selects the menu option.
+
+```
+else if (id == R.id.nav_map) { Intent intent = new Intent(this, Map.class); startActivity(intent);}
+```
 Congratulations - you can now go ahead and build map based apps!
