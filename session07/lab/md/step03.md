@@ -1,4 +1,9 @@
-#Updating ViewMap to view our Coffees on a Map
+#View our Coffees on a Map
+
+Before you go any further, here's where we're at so far
+
+- [CoffeeMate.6.0.sofar](../archives/CoffeeMate.7.0.sofar.zip)
+
 
 At the moment, when the user selects the 'Map' menu option, they get to see a standard map, but not their coffee locations (or even their own location), so this step is about implementing that option for the user.
 
