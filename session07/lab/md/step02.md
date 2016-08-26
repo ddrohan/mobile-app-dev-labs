@@ -5,10 +5,15 @@ First of all, you need to visit [Get an API Key](https://developers.google.com/m
 Once you have your key, the next thing to do is add the following to your strings.xml
 
 ```
-<string name="google_maps_key">abcdefghigklmnopetcetcetc</string>
+<string name="title_map">Map</string>
+<string name="google_maps_key">abcdefghijklmnopetcetcetc</string>
 ```
 
-where '
+where 'abcdefghijklmnopetcetcetc' is your API Key.
+
+Next, open up your manifest file and add the following
+
+
 
 
 Congratulations - you can now go ahead and build map based apps!
