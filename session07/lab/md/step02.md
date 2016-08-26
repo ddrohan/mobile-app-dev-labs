@@ -26,6 +26,12 @@ Also, in your manifest file add the following permissions
 
 ```
 
+and the following dependencies to you build.gradle
+
+```
+compile 'com.google.android.gms:play-services-maps:8.1.0'compile 'com.google.android.gms:play-services-location:8.1.0'
+```
+
 Then, go ahead and create a new **Empty Activity** but name the Layout **_fragment_map_** - this is important as we will be disgarding the activity in the next step but retaining the layout - we are just using it here to confirm we have configured our key etc. correctly.
 
 ![](/session07/lab/img/lab0701.png)
