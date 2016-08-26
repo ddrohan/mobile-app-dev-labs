@@ -65,3 +65,5 @@ and if everything goes according to plan, you should get
 
 
 Congratulations - you can now go ahead and build map based apps!
+
+You can download a version of this stage of CoffeeMate.6.0 on the next step, if you're still having issues.
