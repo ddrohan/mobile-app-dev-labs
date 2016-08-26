@@ -26,5 +26,15 @@ Also, in your manifest file add the following permissions
 
 ```
 
+Then, go ahead and create a new **Empty Activity** but name the Layout **_fragment_map_** - this is important as we will be disgarding the activity in the next step but retaining the layout - we are just using it here to confirm we have configured our key etc. correctly.
+
+![](/session07/lab/img/lab0701.png)
+
+now add the following to the layout
+
+```
+<fragment android:name="com.google.android.gms.maps.MapFragment" android:id="@+id/map" android:layout_width="match_parent" android:layout_height="match_parent"/>
+
+```
 
 Congratulations - you can now go ahead and build map based apps!
