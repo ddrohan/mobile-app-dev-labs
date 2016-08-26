@@ -44,7 +44,8 @@ Finally, (for this step) add the following to your Home Activity, to temporarily
 
 ```
 else if (id == R.id.nav_map) { 
-startActivity(new Intent(this, Map.class));}
+startActivity(new Intent(this, Map.class));
+}
 
 ```
 Congratulations - you can now go ahead and build map based apps!
