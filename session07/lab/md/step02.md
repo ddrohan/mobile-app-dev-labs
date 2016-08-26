@@ -55,4 +55,13 @@ startActivity(new Intent(this, Map.class));
 }
 
 ```
+Run your app and select "View on Map"
+
+![](/session07/lab/img/lab0702.png)
+
+and if everything goes according to plan, you should get
+
+![](/session07/lab/img/lab0703.png)
+
+
 Congratulations - you can now go ahead and build map based apps!
