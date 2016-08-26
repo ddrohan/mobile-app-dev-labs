@@ -11,7 +11,9 @@ Once you have your key, the next thing to do is add the following to your string
 
 where 'abcdefghijklmnopetcetcetc' is your API Key.
 
-Next, open up your manifest file and add the following
+Next, open up your manifest file and add the following just before the **closing** "<application>" tag
+
+
 
 
 
