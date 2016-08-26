@@ -19,7 +19,12 @@ Next, open up your manifest file and add the following just before the **closing
     android:value="@string/google_maps_key" />
 ```
 
+Also, in your manifest file add the following permissions
 
+```
+<uses-permission android:name="ie.cm.permission.MAPS_RECEIVE"/>
+
+```
 
 
 Congratulations - you can now go ahead and build map based apps!
