@@ -73,4 +73,19 @@
   * [Step 09](session06/lab/md/step09.md)
   * [Solution](session06/lab/md/solution.md)
 
+* [Lab 07: CoffeeMate 6.0](lab07_md.md)
+
+ * [Objectives](session07/lab/md/objectives.md)
+ * [Step 01](session07/lab/md/step01.md)
+ * [Step 02](session07/lab/md/step02.md)
+ * [Step 03](session07/lab/md/step03.md)
+ * [Step 04](session07/lab/md/step04.md)
+ * [Step 05](session07/lab/md/step05.md)
+
+ * [Step 06](session06/lab/md/step06.md)
+ * [Step 07](session06/lab/md/step07.md)
+ * [Step 08](session06/lab/md/step08.md)
+ * [Step 09](session06/lab/md/step09.md)
+
+ * [Solution](session07/lab/md/solution.md)
 
