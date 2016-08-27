@@ -44,9 +44,10 @@ private List<Coffee> mCoffeeList;
 
 private long UPDATE_INTERVAL = 30000; /* 30 secs */ 
 private long FASTEST_INTERVAL = 1000; /* 5 secs */ 
-/** Define a request code to send to Google Play services This code is* returned in Activity.onActivityResult*/ 
 
+/** Define a request code to send to Google Play services This code is* returned in Activity.onActivityResult*/ 
 private final static int CONNECTION_FAILURE_RESOLUTION_REQUEST = 9000; 
+
 private final int[] MAP_TYPES = { 
     GoogleMap.MAP_TYPE_SATELLITE, 
     GoogleMap.MAP_TYPE_NORMAL, 
