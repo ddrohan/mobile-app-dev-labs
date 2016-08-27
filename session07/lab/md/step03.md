@@ -185,7 +185,7 @@ Toast.makeText(getActivity(), "Sorry. Location services not available to you", T
 }
 ```
 
-Now, open your **Home** Activity and instead of loading the Map Activity (as is currently the case) implement the necessary code to display our MapsFragment.
+Now, open your **Home** Activity and instead of loading the Map Activity (as is currently the case) implement the necessary code to display our **MapsFragment**.
 
 If you've followed all the steps correctly, you should be seeing something like this
 
