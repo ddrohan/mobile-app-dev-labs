@@ -10,6 +10,13 @@ At the moment, when the user selects the 'Map' menu option, they get to see a st
 As we want to keep in line with the UI guidelines and approach, it makes sense to use a <i>Fragment</i> so first of all go ahead and create a new Fragment called **MapsFragment** (NOT MapFragment) and make sure it extends from MapFragment and implements the following interfaces, like so
 
 ```
-public class MapsFragment extends MapFragment implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, GoogleMap.OnInfoWindowClickListener, GoogleMap.OnMapLongClickListener, GoogleMap.OnMapClickListener, GoogleMap.OnMarkerClickListener, LocationListener {
+public class MapsFragment extends MapFragment implements 
+    GoogleApiClient.ConnectionCallbacks, 
+    GoogleApiClient.OnConnectionFailedListener, 
+    GoogleMap.OnInfoWindowClickListener, 
+    GoogleMap.OnMapLongClickListener, 
+    GoogleMap.OnMapClickListener, 
+    GoogleMap.OnMarkerClickListener, 
+    LocationListener {
 
 ```
