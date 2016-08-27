@@ -30,7 +30,16 @@ mCurrentLocation = location; initCamera(mCurrentLocation);
 }
 ~~~
 
-Next, make sure this new class is referenced in the manifest file:
+And make sure you call startLocationUpdates() in your onConnected()
+
+Now, add the following permission to your manifest file
+
+~~~xml
+
+~~~
+
+and run your app again.
+
 
 ~~~java
 <activity android:name="ie.cm.activities.Nearby"></activity>
