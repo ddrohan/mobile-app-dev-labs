@@ -18,5 +18,7 @@ public class MapsFragment extends MapFragment implements
     GoogleMap.OnMapClickListener, 
     GoogleMap.OnMarkerClickListener, 
     LocationListener {
+...
+}
 
 ```
