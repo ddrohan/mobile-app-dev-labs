@@ -189,3 +189,6 @@ Now, open your **Home** Activity and instead of loading the Map Activity (as is 
 
 If you've followed all the steps correctly, you should be seeing something like this
 
+![](/session07/lab/img/lab0705.png)
+
+Experiment with different coordinates and restarting your app. Now obviously, having to manually change the coordinates is not an option, so the next step will be about adding Location Awareness to our App and updating the Map automatically, as the user moves around.
