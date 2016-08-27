@@ -110,7 +110,7 @@ public void onStop() {
 private void initCamera( Location location ) { 
 CameraPosition position = CameraPosition.builder() 
     .target( new LatLng( location.getLatitude(), location.getLongitude() ) ) 
-    .zoom( 13f ) 
+    .zoom( 14f ) 
     .bearing( 0.0f ) 
     .tilt( 0.0f ) 
     .build(); 
