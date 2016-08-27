@@ -80,8 +80,12 @@ public void onViewCreated(View view, Bundle savedInstanceState) {
 Add the following methods
 
 ```
-private void initListeners() { getMap().setOnMarkerClickListener(this); getMap().setOnMapLongClickListener(this); getMap().setOnInfoWindowClickListener(this); getMap().setOnMapClickListener(this);}
-
+private void initListeners() { 
+    getMap().setOnMarkerClickListener(this); 
+    getMap().setOnMapLongClickListener(this); 
+    getMap().setOnInfoWindowClickListener(this); 
+    getMap().setOnMapClickListener(this);
+}
 
 @Override
 public void onStart() { 
