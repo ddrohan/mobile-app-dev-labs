@@ -24,19 +24,20 @@ public class MapsFragment extends MapFragment implements
     LocationListener {
 ...
 }
-```
+~~~
+
 Fix the errors and replace the existing **_newInstance()_** method with this one
 
-```
+~~~java
 public static MapsFragment newInstance() { 
     MapsFragment fragment = new MapsFragment(); 
 return fragment;
 }
-```
+~~~
 
 Replace the existing instance variables with these
 
-```
+~~~java
 private GoogleApiClient mGoogleApiClient; 
 private Location mCurrentLocation; 
 private LocationRequest mLocationRequest; 
@@ -60,11 +61,11 @@ private final int[] MAP_TYPES = {
  
 private int curMapTypeIndex = 1;
 
-```
+~~~
 
 Remove **_onCreate()_** and **_onCreateView()_** and replace with
 
-```
+~~~java
 @Override
 public void onViewCreated(View view, Bundle savedInstanceState) { 
     super.onViewCreated(view, savedInstanceState); 
@@ -81,11 +82,11 @@ titleBar.setText("Coffee Map");
 
     initListeners();
 }
-```
+~~~
 
 Add the following methods
 
-```
+~~~java
 private void initListeners() { 
     getMap().setOnMarkerClickListener(this); 
     getMap().setOnMapLongClickListener(this); 
@@ -127,11 +128,11 @@ CameraPosition position = CameraPosition.builder()
     getMap().animateCamera(CameraUpdateFactory.newCameraPosition(position), null);
 }
 
-```
+~~~
 
 And replace the relevant methods with the following
 
-```
+~~~java
 @Override 
 public void onConnected(Bundle dataBundle) 
 { 
@@ -183,7 +184,8 @@ catch (IntentSender.SendIntentException e) {
 Toast.makeText(getActivity(), "Sorry. Location services not available to you", Toast.LENGTH_LONG).show(); 
 } 
 }
-```
+
+~~~
 
 Now, open your **Home** Activity and instead of loading the Map Activity (as is currently the case) implement the necessary code to display our **MapsFragment**.
 
