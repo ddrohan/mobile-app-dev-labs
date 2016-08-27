@@ -37,7 +37,25 @@ return fragment;
 Replace the existing instance variables with these
 
 ```
-private GoogleApiClient mGoogleApiClient; private Location mCurrentLocation; private LocationRequest mLocationRequest; private List<Donation> mDonations; private long UPDATE_INTERVAL = 30000; /* 30 secs */ private long FASTEST_INTERVAL = 1000; /* 5 secs */ /** Define a request code to send to Google Play services This code is* returned in Activity.onActivityResult*/ private final static int CONNECTION_FAILURE_RESOLUTION_REQUEST = 9000; private final int[] MAP_TYPES = { GoogleMap.MAP_TYPE_SATELLITE, GoogleMap.MAP_TYPE_NORMAL, GoogleMap.MAP_TYPE_HYBRID, GoogleMap.MAP_TYPE_TERRAIN, GoogleMap.MAP_TYPE_NONE }; private int curMapTypeIndex = 1;
+private GoogleApiClient mGoogleApiClient; 
+private Location mCurrentLocation; 
+private LocationRequest mLocationRequest; 
+private List<Coffee> mCoffeeList; 
+
+private long UPDATE_INTERVAL = 30000; /* 30 secs */ 
+private long FASTEST_INTERVAL = 1000; /* 5 secs */ 
+/** Define a request code to send to Google Play services This code is* returned in Activity.onActivityResult*/ 
+
+private final static int CONNECTION_FAILURE_RESOLUTION_REQUEST = 9000; 
+private final int[] MAP_TYPES = { 
+    GoogleMap.MAP_TYPE_SATELLITE, 
+    GoogleMap.MAP_TYPE_NORMAL, 
+    GoogleMap.MAP_TYPE_HYBRID, 
+    GoogleMap.MAP_TYPE_TERRAIN, 
+    GoogleMap.MAP_TYPE_NONE 
+};
+ 
+private int curMapTypeIndex = 1;
 
 ```
 
