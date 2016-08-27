@@ -69,6 +69,10 @@ Remove **_onCreate()_** and **_onCreateView()_** and replace with
 public void onViewCreated(View view, Bundle savedInstanceState) { 
     super.onViewCreated(view, savedInstanceState); 
     setHasOptionsMenu(true); 
+
+TextView titleBar = (TextView) getActivity().findViewById(R.id.recentAddedBarTextView);
+titleBar.setText("Coffee Map");
+
     mGoogleApiClient = new GoogleApiClient.Builder( getActivity() ) 
         .addConnectionCallbacks( this )     
         .addOnConnectionFailedListener( this ) 
