@@ -13,7 +13,7 @@ As we want to keep in line with the UI guidelines and approach, it makes sense t
 
 Make sure it **_extends_** from _MapFragment_ and **_implements_** the following interfaces, like so
 
-```
+~~~java
 public class MapsFragment extends MapFragment implements 
     GoogleApiClient.ConnectionCallbacks, 
     GoogleApiClient.OnConnectionFailedListener, 
