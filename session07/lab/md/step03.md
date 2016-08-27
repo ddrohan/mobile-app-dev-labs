@@ -179,5 +179,7 @@ catch (IntentSender.SendIntentException e) {
 Toast.makeText(getActivity(), "Sorry. Location services not available to you", Toast.LENGTH_LONG).show(); 
 } 
 }
-
 ```
+
+Now, open your **Home** Activity and instead of loading the MAp Activity (as is currently the case) implement the necessary code to display our MapsFragment.
+
