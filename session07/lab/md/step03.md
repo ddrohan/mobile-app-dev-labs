@@ -25,7 +25,7 @@ public class MapsFragment extends MapFragment implements
 ...
 }
 ```
-Fix the errors and replace the existing newInstance() method with this one
+Fix the errors and replace the existing **_newInstance()_** method with this one
 
 ```
 public static MapsFragment newInstance() { 
@@ -34,9 +34,17 @@ return fragment;
 }
 ```
 
-Remove onCreate() and onCreateView() and replace with
+Remove **_onCreate()_** and **_onCreateView()_** and replace with
 
 ```
-@Overridepublic void onViewCreated(View view, Bundle savedInstanceState) { 
-super.onViewCreated(view, savedInstanceState); setHasOptionsMenu(true); mGoogleApiClient = new GoogleApiClient.Builder( getActivity() ) .addConnectionCallbacks( this ) .addOnConnectionFailedListener( this ) .addApi( LocationServices.API ) .build();}
+@Override
+public void onViewCreated(View view, Bundle savedInstanceState) { 
+    super.onViewCreated(view, savedInstanceState); 
+    setHasOptionsMenu(true); 
+    mGoogleApiClient = new GoogleApiClient.Builder( getActivity() ) 
+        .addConnectionCallbacks( this )     
+        .addOnConnectionFailedListener( this ) 
+        .addApi( LocationServices.API ) 
+        .build();
+}
 ```
