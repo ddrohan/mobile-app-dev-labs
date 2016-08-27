@@ -128,6 +128,56 @@ CameraPosition position = CameraPosition.builder()
 And replace the relevant methods with the following
 
 ```
-@Override public void onConnected(Bundle dataBundle) { // Display the connection status try { mCurrentLocation = LocationServices .FusedLocationApi .getLastLocation(mGoogleApiClient); } catch(SecurityException se) { Toast.makeText(getActivity(),"Check Your Permissions",Toast.LENGTH_SHORT).show(); } if (mCurrentLocation != null) { Toast.makeText(getActivity(), "GPS location was found!", Toast.LENGTH_SHORT).show(); //LatLng latLng = new LatLng(mCurrentLocation.getLatitude(), mCurrentLocation.getLongitude()); } else { Toast.makeText(getActivity(), "Current location was null, Setting Default Values!", Toast.LENGTH_SHORT).show(); mCurrentLocation = new Location("Waterford City Default"); mCurrentLocation.setLatitude(52.25); mCurrentLocation.setLongitude(-7.15); } initCamera(mCurrentLocation); } @Override public void onConnectionSuspended(int i) { if (i == CAUSE_SERVICE_DISCONNECTED) { Toast.makeText(getActivity(), "Disconnected. Please re-connect.", Toast.LENGTH_SHORT).show(); } else if (i == CAUSE_NETWORK_LOST) { Toast.makeText(getActivity(), "Network lost. Please re-connect.", Toast.LENGTH_SHORT).show(); } } @Override public void onLocationChanged(Location location) { } @Override public void onConnectionFailed(ConnectionResult connectionResult) {/* * Google Play services can resolve some errors it detects. If the error * has a resolution, try sending an Intent to start a Google Play * services activity that can resolve error. */ if (connectionResult.hasResolution()) { try { // Start an Activity that tries to resolve the error connectionResult.startResolutionForResult(getActivity(), CONNECTION_FAILURE_RESOLUTION_REQUEST); /* * Thrown if Google Play services canceled the original * PendingIntent */ } catch (IntentSender.SendIntentException e) { // Log the error e.printStackTrace(); } } else { Toast.makeText(getActivity(), "Sorry. Location services not available to you", Toast.LENGTH_LONG).show(); } }
+@Override 
+public void onConnected(Bundle dataBundle) 
+{ 
+// Display the connection status 
+try { 
+mCurrentLocation = LocationServices .FusedLocationApi .getLastLocation(mGoogleApiClient); 
+} 
+catch(SecurityException se) { 
+Toast.makeText(getActivity(),"Check Your Permissions",Toast.LENGTH_SHORT).show(); 
+} 
+if (mCurrentLocation != null) { 
+Toast.makeText(getActivity(), "GPS location was found!", Toast.LENGTH_SHORT).show(); 
+//LatLng latLng = new LatLng(mCurrentLocation.getLatitude(), mCurrentLocation.getLongitude()); 
+} 
+else { 
+Toast.makeText(getActivity(), "Current location was null, Setting Default Values!", Toast.LENGTH_SHORT).show(); 
+mCurrentLocation = new Location("Waterford City Default");
+mCurrentLocation.setLatitude(52.25); 
+mCurrentLocation.setLongitude(-7.15); 
+} 
+
+initCamera(mCurrentLocation); 
+} 
+
+@Override 
+public void onConnectionSuspended(int i) { 
+if (i == CAUSE_SERVICE_DISCONNECTED) { 
+Toast.makeText(getActivity(), "Disconnected. Please re-connect.", Toast.LENGTH_SHORT).show(); 
+} 
+else if (i == CAUSE_NETWORK_LOST) { 
+Toast.makeText(getActivity(), "Network lost. Please re-connect.", Toast.LENGTH_SHORT).show(); 
+} 
+} 
+
+
+@Override 
+public void onConnectionFailed(ConnectionResult connectionResult) {
+/* * Google Play services can resolve some errors it detects. If the error * has a resolution, try sending an Intent to start a Google Play * services activity that can resolve error. */ 
+
+if (connectionResult.hasResolution()) { 
+try { 
+// Start an Activity that tries to resolve the error connectionResult.startResolutionForResult(getActivity(), CONNECTION_FAILURE_RESOLUTION_REQUEST); 
+/* * Thrown if Google Play services canceled the original * PendingIntent */ 
+} 
+catch (IntentSender.SendIntentException e) { 
+// Log the error e.printStackTrace(); 
+} 
+} else { 
+Toast.makeText(getActivity(), "Sorry. Location services not available to you", Toast.LENGTH_LONG).show(); 
+} 
+}
 
 ```
