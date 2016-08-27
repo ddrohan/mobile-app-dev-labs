@@ -9,7 +9,7 @@ At the moment, when the user selects the 'Map' menu option, they get to see a st
 
 As we want to keep in line with the UI guidelines and approach, it makes sense to use a <i>Fragment</i> so first of all go ahead and create a new (Blank) Fragment called **MapsFragment** (NOT MapFragment) but DON'T create a layout or include interface callbacks
 
-
+![](/session07/lab/img/lab0704.png)
 
 Make sure it **_extends_** from _MapFragment_ and **_implements_** the following interfaces, like so
 
