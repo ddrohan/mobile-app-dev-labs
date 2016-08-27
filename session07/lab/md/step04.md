@@ -8,7 +8,26 @@ Firstly, edit your <b>MapsFragment</b> and add/replace the following methods
 
 
 ~~~java
-protected void startLocationUpdates() { mLocationRequest = new LocationRequest(); mLocationRequest.setPriority(LocationRequest.PRIORITY_BALANCED_POWER_ACCURACY); mLocationRequest.setInterval(UPDATE_INTERVAL); mLocationRequest.setFastestInterval(FASTEST_INTERVAL); try { LocationServices.FusedLocationApi.requestLocationUpdates(mGoogleApiClient, mLocationRequest, this); } catch(SecurityException se) { Toast.makeText(getActivity(),"Check Your Permissions on Location Updates",Toast.LENGTH_SHORT).show(); }}public void onLocationChanged(Location location) { // Report to the UI that the location was updated String msg = "Updated Location: " + Double.toString(location.getLatitude()) + "," + Double.toString(location.getLongitude()); //Toast.makeText(getActivity(), msg, Toast.LENGTH_SHORT).show(); Log.v("donate", "onLocationChanged() = " + msg); mCurrentLocation = location; initCamera(mCurrentLocation);}
+protected void startLocationUpdates() { 
+    mLocationRequest = new LocationRequest();
+    mLocationRequest.setPriority(LocationRequest.PRIORITY_BALANCED_POWER_ACCURACY); 
+    mLocationRequest.setInterval(UPDATE_INTERVAL); 
+    mLocationRequest.setFastestInterval(FASTEST_INTERVAL); 
+
+    try { 
+        LocationServices.FusedLocationApi.requestLocationUpdates(mGoogleApiClient, mLocationRequest, this); 
+    } 
+    catch(SecurityException se) { 
+        Toast.makeText(getActivity(),"Check Your Permissions on Location Updates",Toast.LENGTH_SHORT).show(); 
+    }
+  }
+
+public void onLocationChanged(Location location) { 
+// Report to the UI that the location was updated 
+String msg = "Updated Location: " + Double.toString(location.getLatitude()) + "," + Double.toString(location.getLongitude()); 
+Log.v("coffeemate", "onLocationChanged() = " + msg); 
+mCurrentLocation = location; initCamera(mCurrentLocation);
+}
 ~~~
 
 Next, make sure this new class is referenced in the manifest file:
