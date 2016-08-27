@@ -1,10 +1,11 @@
 #View Users Current Location - Part II
 
-This step involves the use of the remaining classes in our [mapresources](../archives/mapresources.zip) so add <b>CoffeePagerAdapter.java</b> and <b>NearbyListAdapter.java</b> to the <i>ie.cm.coffeeadapters</i> package, add <b>Nearby.java</b> to the <i>ie.cm.activities</i> package and add <b>NearbyPageFragment.java</b> and <b>NearbyFragment.java</b> to the <i>ie.cm.fragments</i> package.
+The previous step was mostly about adding in a lot of boilerplate code to our Fragment, to get things moving - a lot of which you would have seen in the lecture material that covers Location and Google Maps.
 
-Once again, have a look through the classes you've just added to the project, as they demonstrate the use of 'custom' swipe features and the use of 'nested' fragments. These classes are all wired up already, so you just need to ensure that when 'Nearby' is selected, the Nearby (swipe) page is loaded.
+This step adds a bit more of that, but also adds some bespoke code specific to CoffeeMate and its features.
 
-Firstly, edit your <b>Home.java</b> and make sure the correct 'screen' is loaded, like so:
+Firstly, edit your <b>MapsFragment</b> and add/replace the following methods
+
 
 ~~~java
   public void nearby(View v) {
