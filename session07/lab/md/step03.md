@@ -145,8 +145,8 @@ Toast.makeText(getActivity(), "GPS location was found!", Toast.LENGTH_SHORT).sho
 else { 
 Toast.makeText(getActivity(), "Current location was null, Setting Default Values!", Toast.LENGTH_SHORT).show(); 
 mCurrentLocation = new Location("Waterford City Default");
-mCurrentLocation.setLatitude(52.25); 
-mCurrentLocation.setLongitude(-7.15); 
+mCurrentLocation.setLatitude(52.2462);
+mCurrentLocation.setLongitude(-7.1402); 
 } 
 
 initCamera(mCurrentLocation); 
