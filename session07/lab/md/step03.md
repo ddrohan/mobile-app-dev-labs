@@ -1,4 +1,4 @@
-#View Users Current Location
+#Set a Starting Map Location
 
 Before you go any further, here's where we're at so far
 
