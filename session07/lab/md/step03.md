@@ -103,7 +103,25 @@ public void onStop() {
             }
   }
 
-private void initCamera( Location location ) { CameraPosition position = CameraPosition.builder() .target( new LatLng( location.getLatitude(), location.getLongitude() ) ) .zoom( 13f ) .bearing( 0.0f ) .tilt( 0.0f ) .build(); getMap().setMapType(MAP_TYPES[curMapTypeIndex]); getMap().setMyLocationEnabled(true); getMap().getUiSettings().setMapToolbarEnabled(true); getMap().getUiSettings().setCompassEnabled(true); getMap().getUiSettings().setMyLocationButtonEnabled(true); getMap().getUiSettings().setAllGesturesEnabled(true); getMap().setTrafficEnabled(true); getMap().setBuildingsEnabled(true); getMap().getUiSettings().setZoomControlsEnabled(true); getMap().animateCamera(CameraUpdateFactory .newCameraPosition(position), null);}
+private void initCamera( Location location ) { 
+CameraPosition position = CameraPosition.builder() 
+    .target( new LatLng( location.getLatitude(), location.getLongitude() ) ) 
+    .zoom( 13f ) 
+    .bearing( 0.0f ) 
+    .tilt( 0.0f ) 
+    .build(); 
+
+    getMap().setMapType(MAP_TYPES[curMapTypeIndex]); 
+    getMap().setMyLocationEnabled(true); 
+    getMap().getUiSettings().setMapToolbarEnabled(true); 
+    getMap().getUiSettings().setCompassEnabled(true); 
+    getMap().getUiSettings().setMyLocationButtonEnabled(true); 
+    getMap().getUiSettings().setAllGesturesEnabled(true); 
+    getMap().setTrafficEnabled(true); 
+    getMap().setBuildingsEnabled(true); 
+    getMap().getUiSettings().setZoomControlsEnabled(true); 
+    getMap().animateCamera(CameraUpdateFactory.newCameraPosition(position), null);
+}
 
 ```
 
