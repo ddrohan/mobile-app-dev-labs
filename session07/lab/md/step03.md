@@ -76,3 +76,10 @@ public void onViewCreated(View view, Bundle savedInstanceState) {
         .build();
 }
 ```
+
+Add the following methods
+
+```
+@Overridepublic void onStart() { super.onStart(); mGoogleApiClient.connect();}@Overridepublic void onStop() { super.onStop(); if( mGoogleApiClient != null && mGoogleApiClient.isConnected() ) { mGoogleApiClient.disconnect(); }}
+
+```
