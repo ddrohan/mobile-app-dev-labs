@@ -40,6 +40,22 @@ Now, add the following permission to your manifest file
 
 and run your app again.
 
+You should now see something like this, 
+
+![](/session07/lab/img/lab0706.png)
+
+but now when you send new coordinates to the emulator, you should see the 'blue dot' move to that new location, as below
+
+![](/session07/lab/img/lab0709.png)
+
+![](/session07/lab/img/lab0707.png)
+
+![](/session07/lab/img/lab0708.png)
+
+
+
+
+
 
 ~~~java
 <activity android:name="ie.cm.activities.Nearby"></activity>
