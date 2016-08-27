@@ -191,4 +191,4 @@ If you've followed all the steps correctly, you should be seeing something like 
 
 ![](/session07/lab/img/lab0705.png)
 
-Experiment with different coordinates and restarting your app. Now obviously, having to manually change the coordinates is not an option, so the next step will be about adding Location Awareness to our App and updating the Map automatically, as the user moves around.
+Experiment with different coordinates and restarting your app. Now obviously, having to manually change the coordinates is not an option, so the next step will be about adding Location Awareness to our App and updating the Map automatically, as the user moves around and adding a 'Marker' to show these movements.
