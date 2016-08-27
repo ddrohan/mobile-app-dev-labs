@@ -35,7 +35,7 @@ And make sure you call startLocationUpdates() in your onConnected()
 Now, add the following permission to your manifest file
 
 ~~~xml
-
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 ~~~
 
 and run your app again.
