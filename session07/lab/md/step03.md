@@ -28,5 +28,8 @@ public class MapsFragment extends MapFragment implements
 Fix the errors and replace the existing newInstance() method with this one
 
 ```
-public static MapsFragment newInstance() { MapsFragment fragment = new MapsFragment(); return fragment;}
+public static MapsFragment newInstance() { 
+    MapsFragment fragment = new MapsFragment(); 
+return fragment;
+}
 ```
