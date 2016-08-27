@@ -80,6 +80,19 @@ public void onViewCreated(View view, Bundle savedInstanceState) {
 Add the following methods
 
 ```
-@Overridepublic void onStart() { super.onStart(); mGoogleApiClient.connect();}@Overridepublic void onStop() { super.onStop(); if( mGoogleApiClient != null && mGoogleApiClient.isConnected() ) { mGoogleApiClient.disconnect(); }}
+@Override
+public void onStart() { 
+    super.onStart(); 
+    mGoogleApiClient.connect();
+  }
 
+@Override
+public void onStop() { 
+    super.onStop(); 
+        if( mGoogleApiClient != null && mGoogleApiClient.isConnected() ) {             
+                mGoogleApiClient.disconnect(); 
+            }
+  }
 ```
+
+And replace 
