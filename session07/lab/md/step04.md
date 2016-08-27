@@ -1,4 +1,4 @@
-#View Users Coffees on a Map
+#View Users Current Location - Part II
 
 This step involves the use of the remaining classes in our [mapresources](../archives/mapresources.zip) so add <b>CoffeePagerAdapter.java</b> and <b>NearbyListAdapter.java</b> to the <i>ie.cm.coffeeadapters</i> package, add <b>Nearby.java</b> to the <i>ie.cm.activities</i> package and add <b>NearbyPageFragment.java</b> and <b>NearbyFragment.java</b> to the <i>ie.cm.fragments</i> package.
 
