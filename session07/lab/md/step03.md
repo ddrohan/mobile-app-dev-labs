@@ -33,3 +33,10 @@ public static MapsFragment newInstance() {
 return fragment;
 }
 ```
+
+Remove onCreate() and onCreateView() and replace with
+
+```
+@Overridepublic void onViewCreated(View view, Bundle savedInstanceState) { 
+super.onViewCreated(view, savedInstanceState); setHasOptionsMenu(true); mGoogleApiClient = new GoogleApiClient.Builder( getActivity() ) .addConnectionCallbacks( this ) .addOnConnectionFailedListener( this ) .addApi( LocationServices.API ) .build();}
+```
