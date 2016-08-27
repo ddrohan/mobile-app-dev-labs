@@ -1,11 +1,11 @@
-#View our Coffees on a Map
+#View Users Current Location
 
 Before you go any further, here's where we're at so far
 
 - [CoffeeMate.6.0.sofar](../archives/CoffeeMate.7.0.sofar.zip)
 
 
-At the moment, when the user selects the 'Map' menu option, they get to see a standard map, but not their coffee locations (or even their own location), so this step is about implementing that option for the user.
+At the moment, when the user selects the 'Map' menu option, they get to see a standard map, but not their coffee locations (or even their own location), so this step is about implementing the users location (we'll look at the coffees location in the next step).
 
 As we will need to reuse this map again, it makes sense to use a <i>Fragment</i> so first of all download the necessary resources in [mapresources](../archives/mapresources.zip) and you will add them to the relevant packages/folders in your project as you need them.
 
