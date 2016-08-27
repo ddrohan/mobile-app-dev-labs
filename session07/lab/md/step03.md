@@ -1,11 +1,11 @@
-#Set a Starting Map Location
+#View Users Current Location - Part I
 
 Before you go any further, here's where we're at so far
 
 - [CoffeeMate.6.0.sofar](../archives/CoffeeMate.7.0.sofar.zip)
 
 
-At the moment, when the user selects the 'Map' menu option, they get to see a standard map, but not their own location (or even their coffees locations), so this step is about implementing the that (we'll look at the coffees location in the next step).
+At the moment, when the user selects the 'Map' menu option, they get to see a standard map, but not their own location (or even their coffees locations), so this step (and the next) is about implementing that (we'll look at the coffees location in later steps).
 
 As we want to keep in line with the UI guidelines and approach, it makes sense to use a <i>Fragment</i> so first of all go ahead and create a new (Blank) Fragment called **MapsFragment** (NOT MapFragment) but DON'T create a layout or include interface callbacks
 
