@@ -74,6 +74,8 @@ public void onViewCreated(View view, Bundle savedInstanceState) {
         .addOnConnectionFailedListener( this ) 
         .addApi( LocationServices.API ) 
         .build();
+
+    initListeners();
 }
 ```
 
