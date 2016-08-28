@@ -42,7 +42,7 @@ and run your app again (and remember to accept these new permissions).
 
 ![](/session07/lab/img/lab0710.png)
 
-You should now see something like this, 
+You should now see something like this when you 'View on Map'
 
 ![](/session07/lab/img/lab0706.png)
 
