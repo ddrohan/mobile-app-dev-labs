@@ -40,6 +40,8 @@ Now, add the following permission to your manifest file
 
 and run your app again (and remember to accept these new permissions).
 
+![](/session07/lab/img/lab0710.png)
+
 You should now see something like this, 
 
 ![](/session07/lab/img/lab0706.png)
