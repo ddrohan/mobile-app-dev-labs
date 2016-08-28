@@ -4,7 +4,7 @@ The last step in this lab involves displaying the users coffees on the map, alon
 
 - MapFragment
 - AddFragment
-- EditFragment
+- CoffeeApi
 
 ###MapFragment
 
@@ -53,10 +53,5 @@ Before you run your app, I'd suggest checking the Web App to confirm you have so
 
 zzzz
 
----
-
-###EditFragment
-
-zzzz
 
 
