@@ -45,7 +45,7 @@ CoffeeApi.detachListener();
 
 Before you run your app, I'd suggest checking the Web App to confirm you have some coffees stored on the server and can view them on the Map in the Browser, so when you run your app, you know it's working correctly if you see your coffees - something like this
 
-
+![](/assets/coffeemate.9.png)
 
 ---
 
