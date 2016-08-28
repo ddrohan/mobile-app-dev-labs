@@ -13,6 +13,7 @@ Here we need to inspect our list of coffees and (using the longitude and latitud
 So, first, open up your MapFragment class and add the following method
 
 ~~~java
+public void addCoffees(List<Coffee> list){ for(Coffee c : list) getMap().addMarker(new MarkerOptions() .position(new LatLng(c.marker.coords.latitude, c.marker.coords.longitude)) .title(c.name + " €" + c.price) .snippet(c.shop + " " + c.address) .icon(BitmapDescriptorFactory.fromResource(R.drawable.coffee)));}
 
 ~~~
 
