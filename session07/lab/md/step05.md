@@ -8,7 +8,13 @@ The last step in this lab involves displaying the users coffees on the map, alon
 
 ###MapFragment
 
-zzzz
+Here we need to inspect our list of coffees and (using the longitude and latitude coordinates) place a marker on the map indicating the location of each coffee.
+
+So, first, open up your MapFragment class and add the following method
+
+~~~java
+
+~~~
 
 ---
 
