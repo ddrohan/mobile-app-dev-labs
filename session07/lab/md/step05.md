@@ -53,6 +53,11 @@ Before you run your app, I'd suggest checking the Web App to confirm you have so
 
 Now that we can see existing coffees on our Map, what about when we add new coffees on the device, not the web app? This is the final step in our Case Study and involves a bit of work in refactoring our AddFragment as we need to grab the current location to save with our coffee details.
 
+And for fun :) we'll also embed our MapFragment, inside the AddFragment layout, so we can see where we're adding our coffee, like so
+
+![](/assets/coffeemate.10.png)
+
+
 First thing to do is 
 
 
